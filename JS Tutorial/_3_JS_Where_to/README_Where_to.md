@@ -123,7 +123,8 @@ An external script can be referenced in 3 different ways:
 This example uses a full URL to link to myScript.js:
 
 ### Example
-<script src="https://www.w3schools.com/js/myScript.js"></script>
+<script src="https://www.w3schools.com/js/myScript.js">
+</script>
 
 This example uses a file path to link to myScript.js:
 
