@@ -1,6 +1,5 @@
 # JavaScript Introduction
 
-
 ## JavaScript Can Change HTML Content
 One of many JavaScript HTML methods is `getElementById().`
 
@@ -21,7 +20,6 @@ Changing the style of an HTML element, is a variant of changing an HTML attribut
 ### Example
 document.getElementById("demo").style.fontSize = "35px";
 
-
 ### JavaScript Can Hide HTML Elements
 Hiding HTML elements can be done by changing the display style:
 
@@ -36,4 +34,10 @@ Showing hidden HTML elements can also be done by changing the display style:
 document.getElementById("demo").style.display = "block";
 
 
-`Did You Know? JavaScript and Java are completely different languages, both in concept and design. JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997 ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.`
+Did You Know?
+JavaScript and Java are completely different languages, both in concept and design.
+
+JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+
+ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+
