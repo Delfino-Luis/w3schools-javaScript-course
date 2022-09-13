@@ -25,13 +25,13 @@ JavaScript is one of the **3 languages** all web developers **must** learn:
 3. [JavaScript](https://www.w3schools.com/js/default.asp) to program the behavior of web pages
 
 
-```
+
 This tutorial covers every version of JavaScript:
-    - The Original JavaScript ES1 ES2 ES3 (1997-1999)
-    - The First Main Revision ES5 (2009)
-    - The Second Revision ES6 (2015)
-    - The Yearly Additions (2016, 2017, 2018)
-```
+    * The Original JavaScript ES1 ES2 ES3 (1997-1999)
+    * The First Main Revision ES5 (2009)
+    * The Second Revision ES6 (2015)
+    * The Yearly Additions (2016, 2017, 2018)
+
 
 ## Learning Speed
 In this tutorial, the learning speed is your choice.
@@ -45,9 +45,9 @@ If you are struggling, take a break, or re-read the material.
 The only way to become a clever programmer is to: Practice. Practice. Practice. Code. Code. Code !
 
 ## Commonly Asked Questions
-      - How do I get JavaScript?
-      - Where can I download JavaScript?
-      - Is JavaScript Free?
+      * How do I get JavaScript?
+      * Where can I download JavaScript?
+      * Is JavaScript Free?
 
 **You don't have to get or download JavaScript.**
 
