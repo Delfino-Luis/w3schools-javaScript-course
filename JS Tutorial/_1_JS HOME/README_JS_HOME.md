@@ -62,7 +62,7 @@ Track your progress with the free "My Learning" program here at W3Schools.
 Log into your account, and start earning points!
 
 This is an optional feature, you can study W3Schools without using My Learning.
-![Image](../_1_JS%20HOME/mylearning.png)(https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com%2F)
+![Image](../_1_JS%20HOME/mylearning.png)[](https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com%2F)
 
 
 ## JavaScript References
