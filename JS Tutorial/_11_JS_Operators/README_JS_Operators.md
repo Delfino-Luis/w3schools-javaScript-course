@@ -145,7 +145,7 @@ Comparison operators are fully described in the [JS Comparisons](https://www.w3s
 | **Operator**	| **Description** |
 |---------------|-----------------|
 | && | logical and |
-| || | logical or |
+| **||** | logical or |
 | !	| logical not |
 
 Logical operators are fully described in the JS Comparisons chapter.
@@ -166,7 +166,7 @@ Any numeric operand in the operation is converted into a 32 bit number. The resu
 | Operator | Description | Example | Same as | Result | Decimal |
 |----------|-------------|---------|---------|--------|---------|
 | &	| AND | 5 & 1 | 0101 & 0001	| 0001 | 1 |
-| |	| OR | 5 | 1 | 0101 | 0001 | 0101 | 5 |
+| **|**	| OR | 5 **|** 1 | 0101 | 0001 | 0101 | 5 |
 | ~ | NOT	| ~ 5 | ~0101 | 1010 | 10 |
 | ^	| XOR | 5 ^ 1 | 0101 ^ 0001	| 0100 | 4 |
 | << | left shift | 5 << 1 | 0101 << 1	| 1010 | 10 |
