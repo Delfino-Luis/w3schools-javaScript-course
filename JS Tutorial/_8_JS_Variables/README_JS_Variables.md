@@ -12,7 +12,7 @@ Variables are containers for storing data (storing data values).
 In this example, `x`, `y`, and `z`, are variables, declared with the `var` keyword:
 
 ### Example
-```
+```javascript
 var x = 5;
 var y = 6;
 var z = x + y;
@@ -20,7 +20,7 @@ var z = x + y;
 In this example, `x`, `y`, and `z`, are variables, declared with the `let` keyword:
 
 ### Example
-```
+```javascript
 let x = 5;
 let y = 6;
 let z = x + y;
@@ -28,7 +28,7 @@ let z = x + y;
 In this example, `x`, `y`, and `z`, are undeclared variables:
 
 ### Example
-```
+```javascript
 x = 5;
 y = 6;
 z = x + y;
@@ -57,7 +57,7 @@ If you think the value of the variable can change, use `let`.
 In this example, `price1`, `price2`, and `total`, are variables:
 
 ### Example
-```
+```javascript
 const price1 = 5;
 const price2 = 6;
 let total = price1 + price2;
@@ -73,12 +73,12 @@ This is a value that can be changed.
 
 ## Just Like Algebra
 Just like in algebra, variables hold values:
-```
+```javascript
 let x = 5;
 let y = 6;
 ```
 Just like in algebra, variables are used in expressions:
-```
+```javascript
 let z = x + y;
 ```
 From the example above, you can guess that the total is calculated to be 11.
@@ -108,7 +108,7 @@ JavaScript identifiers are case-sensitive.
 In JavaScript, the equal sign (`=`) is an "assignment" operator, not an "equal to" operator.
 
 This is different from algebra. The following does not make sense in algebra:
-```
+```javascript
 x = x + 5
 ```
 
@@ -131,7 +131,7 @@ Strings are written inside double or single quotes. Numbers are written without 
 If you put a number in quotes, it will be treated as a text string.
 
 ### Example
-```
+```javascript
 const pi = 3.14;
 let person = "John Doe";
 let answer = 'Yes I am!';
@@ -141,7 +141,7 @@ let answer = 'Yes I am!';
 Creating a variable in JavaScript is called "declaring" a variable.
 
 You declare a JavaScript variable with the `var` or the `let` keyword:
-```
+```javascript
 var carName;
 or:
 let carName;
@@ -150,14 +150,14 @@ let carName;
 After the declaration, the variable has no value (technically it is `undefined`).
 
 To `assign` a value to the variable, use the equal sign:
-```
+```javascript
 carName = "Volvo";
 ```
 
 You can also assign a value to the variable when you declare it:
 
 
-```
+```javascript
 let carName = "Volvo";
 ```
 
@@ -166,7 +166,7 @@ In the example below, we create a variable called `carName` and assign the value
 Then we "output" the value inside an HTML paragraph with id="demo":
 
 ### Example
-```
+```javascript
 <p id="demo"></p>
 
 <script>
@@ -184,14 +184,14 @@ You can declare many variables in one statement.
 Start the statement with let and separate the variables by `comma`:
 
 ### Example
-```
+```javascript
 let person = "John Doe", carName = "Volvo", price = 200;
 ```
 
 A declaration can span multiple lines:
 
 ### Example
-```
+```javascript
 let person = "John Doe",
 carName = "Volvo",
 price = 200;
@@ -205,7 +205,7 @@ A variable declared without a value will have the value `undefined`.
 The variable carName will have the value `undefined` after the execution of this statement:
 
 ### Example
-```
+```javascript
 let carName;
 ```
 
@@ -215,7 +215,7 @@ If you re-declare a JavaScript variable declared with `var`, it will not lose it
 The variable `carName` will still have the value "Volvo" after the execution of these statements:
 
 ### Example
-```
+```javascript
 var carName = "Volvo";
 var carName;
 ```
@@ -224,7 +224,7 @@ var carName;
 You cannot re-declare a variable declared with let or const.
 
 This will not work:
-```
+```javascript
 let carName = "Volvo";
 let carName;
 ```
@@ -233,21 +233,21 @@ let carName;
 As with algebra, you can do arithmetic with JavaScript variables, using operators like `=` and `+`:
 
 ### Example
-```
+```javascript
 let x = 5 + 2 + 3;
 ```
 
 You can also add strings, but strings will be concatenated:
 
 ### Example
-```
+```javascript
 let x = "John" + " " + "Doe";
 ```
 
 Also try this:
 
 ### Example
-```
+```javascript
 let x = "5" + 2 + 3;
 ```
 
@@ -257,7 +257,7 @@ If you put a number in quotes, the rest of the numbers will be treated as string
 Now try this:
 
 ### Example
-```
+```javascript
 let x = 2 + 3 + "5";
 ```
 
@@ -265,7 +265,7 @@ let x = 2 + 3 + "5";
 Since JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names:
 
 ### Example
-```
+```javascript
 let $ = "Hello World";
 let $$$ = 2;
 let $myMoney = 5;
@@ -279,7 +279,7 @@ In the JavaScript library jQuery, for instance, the main function `$` is used to
 Since JavaScript treats underscore as a letter, identifiers containing `_` are valid variable names:
 
 ### Example
-```
+```javascript
 let _lastName = "Johnson";
 let _x = 2;
 let _100 = 5;
