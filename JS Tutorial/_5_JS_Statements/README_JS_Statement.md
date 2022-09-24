@@ -1,7 +1,7 @@
 # JavaScript Statements
 
 ### Example
-```
+```javascript
 let x, y, z;    // Statement 1
 x = 5;          // Statement 2
 y = 6;          // Statement 3
@@ -27,7 +27,7 @@ Values, Operators, Expressions, Keywords, and Comments.
 This statement tells the browser to write "Hello Dolly." inside an HTML element with id="demo":
 
 ### Example
-```
+```javascript
 document.getElementById("demo").innerHTML = "Hello Dolly.";
 ```
 
@@ -42,7 +42,7 @@ Semicolons separate JavaScript statements.
 
 Add a semicolon at the end of each executable statement:
 ### Examples
-```
+```javascript
 let a, b, c;  // Declare 3 variables
 a = 5;        // Assign the value 5 to a
 b = 6;        // Assign the value 6 to b
@@ -51,7 +51,7 @@ c = a + b;    // Assign the sum of a and b to c
 
 When separated by semicolons, multiple statements on one line are allowed:
 
-```
+```javascript
 a = 5; b = 6; c = a + b;
 ```
 
@@ -62,13 +62,13 @@ Ending statements with semicolon is not required, but highly recommended.
 JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.
 
 The following lines are equivalent:
-```
+```javascript
 let person = "Hege";
 let person="Hege";
 ```
 A good practice is to put spaces around operators ( = + - * / ):
 
-```
+```javascript
 let x = y + z;
 ```
 
@@ -78,7 +78,7 @@ For best readability, programmers often like to avoid code lines longer than 80 
 If a JavaScript statement does not fit on one line, the best place to break it is after an operator:
 
 ### Example
-```
+```javascript
 document.getElementById("demo").innerHTML =
 "Hello Dolly!";
 ```
@@ -91,7 +91,7 @@ The purpose of code blocks is to define statements to be executed together.
 One place you will find statements grouped together in blocks, is in JavaScript functions:
 
 ### Example
-```
+```javascript
 function myFunction() {
   document.getElementById("demo1").innerHTML = "Hello Dolly!";
   document.getElementById("demo2").innerHTML = "How are you?";
