@@ -6,14 +6,14 @@ One of many JavaScript HTML methods is `getElementById().`
 The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript":
 
 ### Example
-```html
+```javascript
 document.getElementById("demo").innerHTML = "Hello JavaScript";
 ```
 
 JavaScript accepts both double and single quotes:
 
 ### Example
-```html
+```javascript
 document.getElementById('demo').innerHTML = 'Hello JavaScript';
 ```
 
@@ -21,7 +21,7 @@ document.getElementById('demo').innerHTML = 'Hello JavaScript';
 Changing the style of an HTML element, is a variant of changing an HTML attribute:
 
 ### Example
-```html
+```javascript
 document.getElementById("demo").style.fontSize = "35px";
 ```
 
@@ -29,7 +29,7 @@ document.getElementById("demo").style.fontSize = "35px";
 Hiding HTML elements can be done by changing the display style:
 
 ### Example
-```html
+```javascript
 document.getElementById("demo").style.display = "none";
 ```
 
@@ -37,7 +37,7 @@ document.getElementById("demo").style.display = "none";
 Showing hidden HTML elements can also be done by changing the display style:
 
 ### Example
-```html
+```javascript
 document.getElementById("demo").style.display = "block";
 ```
 
