@@ -11,7 +11,7 @@ Any text between `//` and the end of the line will be ignored by JavaScript (wil
 This example uses a single-line comment before each code line:
 
 ### Example
-```
+```javascript
 // Change heading:
 document.getElementById("myH").innerHTML = "My First Page";
 
@@ -22,7 +22,7 @@ document.getElementById("myP").innerHTML = "My first paragraph.";
 This example uses a single line comment at the end of each line to explain the code:
 
 ### Example
-```
+```javascript
 let x = 5;      // Declare x, give it the value of 5
 let y = x + 2;  // Declare y, give it the value of x + 2
 ```
@@ -35,7 +35,7 @@ Any text between `/*` and `*/` will be ignored by JavaScript.
 This example uses a multi-line comment (a comment block) to explain the code:
 
 ### Example
-```
+```javascript
 /*
 The code below will change
 the heading with id = "myH"
@@ -57,7 +57,7 @@ Adding `//` in front of a code line changes the code lines from an executable li
 This example uses // to prevent execution of one of the code lines:
 
 ### Example
-```
+```javascript
 //document.getElementById("myH").innerHTML = "My First Page";
 document.getElementById("myP").innerHTML = "My first paragraph.";
 ```
@@ -65,7 +65,7 @@ document.getElementById("myP").innerHTML = "My first paragraph.";
 This example uses a comment block to prevent execution of multiple lines:
 
 ### Example
-```
+```javascript
 /*
 document.getElementById("myH").innerHTML = "My First Page";
 document.getElementById("myP").innerHTML = "My first paragraph.";
