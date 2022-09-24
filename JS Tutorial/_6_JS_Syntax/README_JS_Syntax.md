@@ -2,7 +2,7 @@
 
 JavaScript syntax is the set of rules, how JavaScript programs are constructed:
 
-```
+```javascript
 // How to create variables:
 var x;
 let y;
@@ -25,16 +25,16 @@ Variable values are called **Variables**.
 The two most important syntax rules for fixed values are:
 
 1. **Numbers** are written with or without decimals:
-```
+```javascript
 10.50
 
 1001
 ```
 2. **Strings** are text, written within double or single quotes:
-```
+```javascript
 "John Doe"
 
-'John Doe
+'John Doe'
 ```
 
 ## JavaScript Variables
@@ -45,7 +45,7 @@ JavaScript uses the keywords var, let and const to **declar**e variables.
 An **equal sign** is used to **assign values** to variables.
 
 In this example, x is defined as a variable. Then, x is assigned (given) the value 6:
-```
+```javascript
 let x;
 x = 6;
 ```
@@ -53,11 +53,11 @@ x = 6;
 ## JavaScript Operators
 JavaScript uses arithmetic operators ( `+` 
 `-` `*` `/` ) to compute values:
-```
+```javascript
 (5 + 6) * 10
 ```
 JavaScript uses an **assignment operator** ( `=` ) to **assign** values to variables:
-```
+```javascript
 let x, y;
 x = 5;
 y = 6;
@@ -69,18 +69,18 @@ An expression is a combination of values, variables, and operators, which comput
 The computation is called an evaluation.
 
 For example, 5 * 10 evaluates to 50:
-```
+```javascript
 5 * 10
 ```
 
 Expressions can also contain variable values:
-```
+```javascript
 x * 10
 ```
 The values can be of various types, such as numbers and strings.
 
 For example, "John" + " " + "Doe", evaluates to "John Doe":
-```
+```javascript
 "John" + " " + "Doe"
 ```
 
@@ -88,13 +88,13 @@ For example, "John" + " " + "Doe", evaluates to "John Doe":
 JavaScript **keywords** are used to identify actions to be performed.
 
 The `let` keyword tells the browser to create variables:
-```
+```javascript
 let x, y;
 x = 5 + 6;
 y = x * 10;
 ```
 The `var` keyword also tells the browser to create variables:
-```
+```javascript
 var x, y;
 x = 5 + 6;
 y = x * 10;
@@ -110,7 +110,7 @@ Not all JavaScript statements are "executed".
 Code after double slashes `//` or between `/*` and `*/` is treated as a **comment**.
 
 Comments are ignored, and will not be executed:
-```
+```javascript
 let x = 5;   // I will be executed
 
 // x = 6;   I will NOT be executed
@@ -142,7 +142,7 @@ This way JavaScript can easily distinguish identifiers from numbers.
 All JavaScript identifiers are **case sensitive**. 
 
 The variables **lastName** and **lastname**, are two different variables:
-```
+```javascript
 let lastname, lastName;
 lastName = "Doe";
 lastname = "Peterson";
