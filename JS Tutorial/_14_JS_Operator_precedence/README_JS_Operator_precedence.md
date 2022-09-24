@@ -44,9 +44,9 @@ Function are executed **before** the result is used in the rest of the expressio
 | 16 | new | [New without Arguments]() | new Date() |
 
 
-| Increment Operators |
-|---|---|---------------------|--------|
+## Increment Operators 
 Posfix increments are executed **before** prefix increments
+|---|---|---------------------|--------|
 | 15 | ++ | [Postfix Increment]() | i++ |
 | 15 | -- | [Postfix Decrement]() | i-- |
 | 14 | ++ | [Prefix Increment]() | ++i |
