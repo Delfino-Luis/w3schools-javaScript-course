@@ -4,9 +4,11 @@
 In HTML, JavaScript code is inserted between <script> and </script> tags.
 
 ### Example
+```javascript
 <script>
 document.getElementById("demo").innerHTML = "My First JavaScript";
 </script>
+```
 
 Old JavaScript examples may use a type attribute: <script type="text/javascript">.
 The type attribute is not required. JavaScript is the default scripting language in HTML.
@@ -32,7 +34,7 @@ The function is invoked (called) when a button is clicked:
 
 ### Example
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,7 +61,7 @@ In this example, a `JavaScript` function is placed in the `<body>` section of an
 The function is invoked (called) when a button is clicked:
 
 ### Example
-```
+```html
 <!DOCTYPE html>
 <html>
 <body>
@@ -86,18 +88,24 @@ Placing scripts at the bottom of the <body> element improves the display speed, 
 ## External JavaScript
 Scripts can also be placed in external files:
 
-External file: myScript.js
+### External file: myScript.js
+```javascript
 function myFunction() {
   document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
+```
+
 External scripts are practical when the same code is used in many different web pages.
 
 JavaScript files have the file extension .js.
 
 To use an external script, put the name of the script file in the src (source) attribute of a <script> tag:
 
-Example
+### Example
+```javascript
 <script src="myScript.js"></script>
+```
+
 You can place an external script reference in <head> or <body> as you like.
 
 The script will behave as if it was located exactly where the <script> tag is located.
@@ -112,6 +120,11 @@ Placing scripts in external files has some advantages:
 * It makes HTML and JavaScript easier to read and maintain
 * Cached JavaScript files can speed up page loads
 
+### Example
+```javascript
+<script src="myScript1.js"></script>
+<script src="myScript2.js"></script>
+```
 
 ## External References
 An external script can be referenced in 3 different ways:
@@ -123,17 +136,23 @@ An external script can be referenced in 3 different ways:
 This example uses a full URL to link to myScript.js:
 
 ### Example
+```javascript
 <script src="https://www.w3schools.com/js/myScript.js">
 </script>
+```
 
 This example uses a file path to link to myScript.js:
 
 ### Example
+```javascript
 <script src="/js/myScript.js"></script>
+```
 
 This example uses no path to link to myScript.js:
 
 ### Example
+```javascript
 <script src="myScript.js"></script>
+```
 
 You can read more about file paths in the chapter [HTML File Paths](https://www.w3schools.com/html/html_filepaths.asp).
