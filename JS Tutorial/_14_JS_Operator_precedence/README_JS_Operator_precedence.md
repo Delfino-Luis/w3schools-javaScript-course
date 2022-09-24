@@ -46,6 +46,7 @@ Function are executed **before** the result is used in the rest of the expressio
 
 ## Increment Operators 
 Posfix increments are executed **before** prefix increments
+| | | | |
 |---|---|---------------------|--------|
 | 15 | ++ | [Postfix Increment]() | i++ |
 | 15 | -- | [Postfix Decrement]() | i-- |
