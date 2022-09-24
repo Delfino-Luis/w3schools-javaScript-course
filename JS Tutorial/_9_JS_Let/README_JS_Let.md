@@ -15,7 +15,7 @@ You cannot accidentally redeclare a variable.
 With `let` you can not do this:
 
 ### Example
-```
+```javascript
 let x = "John Doe";
 
 let x = 0;
@@ -26,7 +26,7 @@ let x = 0;
 With `var` you can:
 
 ### Example
-```
+```javascript
 var x = "John Doe";
 
 var x = 0;
@@ -42,7 +42,7 @@ These two keywords provide **Block Scope** in JavaScript.
 Variables declared inside a { } block cannot be accessed from outside the block:
 
 ### Example
-```
+```javascript
 {
   let x = 2;
 }
@@ -54,7 +54,7 @@ Variables declared with the `var` keyword can NOT have block scope.
 Variables declared inside a { } block can be accessed from outside the block.
 
 ### Example
-```
+```javascript
 {
   var x = 2;
 }
@@ -67,7 +67,7 @@ Redeclaring a variable using the `var` keyword can impose problems.
 Redeclaring a variable inside a block will also redeclare the variable outside the block:
 
 ### Example
-```
+```javascript
 var x = 10;
 // Here x is 10
 
@@ -84,7 +84,7 @@ Redeclaring a variable using the `let` keyword can solve this problem.
 Redeclaring a variable inside a block will not redeclare the variable outside the block:
 
 ### Example
-```
+```javascript
 let x = 10;
 // Here x is 10
 
@@ -107,7 +107,7 @@ The following table defines the first browser versions with full support for the
 Redeclaring a JavaScript variable with `var` is allowed anywhere in a program:
 
 ### Example
-```
+```javascript
 var x = 2;
 // Now x is 2
 
@@ -118,7 +118,7 @@ var x = 3;
 With `let`, redeclaring a variable in the same block is NOT allowed:
 
 ### Example
-```
+```javascript
 var x = 2;   // Allowed
 let x = 3;   // Not allowed
 
@@ -136,7 +136,7 @@ var x = 3;   // Not allowed
 Redeclaring a variable with `let`, in another block, IS allowed:
 
 ### Example
-```
+```javascript
 let x = 2;   // Allowed
 
 {
@@ -155,7 +155,7 @@ Meaning: You can use the variable before it is declared:
 
 ### Example
 This is OK:
-```
+```javascript
 carName = "Volvo";
 var carName;
 ```
@@ -167,7 +167,7 @@ Variables defined with `let` are also hoisted to the top of the block, but not i
 Meaning: Using a `let` variable before it is declared will result in a `ReferenceError`:
 
 ### Example
-```
+```javascript
 carName = "Saab";
 let carName = "Volvo";
 ```
