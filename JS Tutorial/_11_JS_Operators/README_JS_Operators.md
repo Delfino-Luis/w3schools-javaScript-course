@@ -2,7 +2,7 @@
 
 ### Example
 Assign values to variables and add them together:
-```
+```javascript
 let x = 5;         // assign the value 5 to x
 let y = 2;         // assign the value 2 to y
 let z = x + y;     // assign the value 7 to z (5 + 2)
@@ -11,14 +11,14 @@ let z = x + y;     // assign the value 7 to z (5 + 2)
 The **assignment** operator (`=`) assigns a value to a variable.
 
 ### Assignment
-```
+```javascript
 let x = 10;
 ```
 
 The **addition** operator (`+`) adds numbers:
 
 ### Adding
-```
+```javascript
 let x = 5;
 let y = 2;
 let z = x + y;
@@ -27,7 +27,7 @@ let z = x + y;
 The **multiplication** operator (`*`) multiplies numbers.
 
 ### Multiplying
-```
+```javascript
 let x = 5;
 let y = 2;
 let z = x * y;
@@ -66,7 +66,7 @@ Assignment operators assign values to JavaScript variables.
 The **addition assignment** operator (`+=`) adds a value to a variable.
 
 ### Assignment
-```
+```javascript
 let x = 10;
 x += 5;
 ```
@@ -78,27 +78,27 @@ Assignment operators are fully described in the [**JS Assignment chapter**](http
 The `+` operator can also be used to add (concatenate) strings.
 
 ### Example
-```
+```javascript
 let text1 = "John";
 let text2 = "Doe";
 let text3 = text1 + " " + text2;
 ```
 
 The result of text3 will be:
-```
+```javascript
 John Doe
 ```
 
 The `+=` assignment operator can also be used to add (concatenate) strings:
 
 ### Example
-```
+```javascript
 let text1 = "What a very ";
 text1 += "nice day";
 ```
 
 The result of text1 will be:
-```
+```javascript
 What a very nice day
 ```
 
@@ -108,14 +108,14 @@ When used on strings, the + operator is called the concatenation operator.
 Adding two numbers, will return the sum, but adding a number and a string will return a string:
 
 ### Example
-```
+```javascript
 let x = 5 + 5;
 let y = "5" + 5;
 let z = "Hello" + 5;
 ```
 
 The result of x, y, and z will be:
-```
+```javascript
 10
 55
 Hello5
@@ -145,7 +145,7 @@ Comparison operators are fully described in the [JS Comparisons](https://www.w3s
 | **Operator**	| **Description** |
 |---------------|-----------------|
 | && | logical and |
-| **||** | logical or |
+| | logical or |
 | !	| logical not |
 
 Logical operators are fully described in the JS Comparisons chapter.
