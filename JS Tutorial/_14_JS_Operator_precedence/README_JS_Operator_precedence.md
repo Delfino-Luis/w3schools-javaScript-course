@@ -55,12 +55,14 @@ Posfix increments are executed **before** prefix increments
 
 
 ## Logical Operators
+| | | | |
 |---|---|-----------------------|--------|
 | 14 | ! | [Logical NOT]() | !(x==y) |
 | 14 | ~ | [Bitwise NOT]() | ~x |
 
 
 ## Unary Operators
+| | | | |
 |---|---|-----------------------|--------|
 | 14 | + | [Unary Plus]() | +x |
 | 14 | - | [Unary Minus]() | -x |
@@ -70,9 +72,10 @@ Posfix increments are executed **before** prefix increments
 
 
 ## Arithmetic Operators
-|---|---|-----------------------|--------|
 Exponentiations are executed **before** multiplications
 Multiplications and divisions are executed **before** additions and subtractions
+| | | | |
+|---|---|-----------------------|--------|
 | 13 | ** | [Exponentiation](), [ECMAScript 2016]()	| 10 ** 2 |
 | 12 | * | [Multiplication]() | 10 * 5 |
 | 12 | / | [Division]()	| 10 / 5 |
@@ -83,6 +86,7 @@ Multiplications and divisions are executed **before** additions and subtractions
 
 
 ## Shift Operators
+| | | | |
 |---|---|-----------------------|--------|
 | 10 | << | [Shift Left]()	| x << 2 |
 | 10 | >> | [Shift Right (signed)]() | x >> 2 |
@@ -90,12 +94,14 @@ Multiplications and divisions are executed **before** additions and subtractions
 
 
 ## Relational Operators
+| | | | |
 |---|---|-----------------------|--------|
 | 9	| in | [Property in Object]() | "PI" in Math |
 | 9	| instanceof | [Instance of Object]() | x instanceof Array |
 
 
 ## Comparison Operators
+| | | | |
 |---|---|-----------------------|--------|
 | 9	| <	| [Less than]()	| x < y  |
 | 9	| <= | [Less than or equal]() | x <= y |
@@ -108,6 +114,7 @@ Multiplications and divisions are executed **before** additions and subtractions
 
 
 ## Bitwise Operators
+| | | | |
 |---|---|-----------------------|--------|
 | 7	| &	| [Bitwise AND]() | x & y |
 | 6	| ^	| [Bitwise XOR]() | x ^ y |
@@ -115,6 +122,7 @@ Multiplications and divisions are executed **before** additions and subtractions
 
 
 ## Logical Operators
+| | | | |
 |---|---|-----------------------|--------|
 | 4	| && | [Logical AND]() | x && y |
 | 3	| \|\| | [Logical OR]()	| x \|\| y |
@@ -122,12 +130,14 @@ Multiplications and divisions are executed **before** additions and subtractions
 
 
 ## Conditional (ternary) Operator
+| | | | |
 |---|---|-----------------------|--------|
 | 2	| ? : | [Condition]() | ? "yes" : "no" |
 
 
 ## Assignment Operators
 Assignments are executed **after** other operations
+| | | | |
 |---|---|-----------------------|--------|
 | 2	| =	| [Simple Assignment]()	| x += y |
 | 2	| += | [Addition Assignment]() | x += y |
