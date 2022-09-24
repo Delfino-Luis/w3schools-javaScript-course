@@ -145,7 +145,7 @@ Comparison operators are fully described in the [JS Comparisons](https://www.w3s
 | **Operator**	| **Description** |
 |---------------|-----------------|
 | && | logical and |
-| "|" | logical or |
+| \| | logical or |
 | !	| logical not |
 
 Logical operators are fully described in the JS Comparisons chapter.
