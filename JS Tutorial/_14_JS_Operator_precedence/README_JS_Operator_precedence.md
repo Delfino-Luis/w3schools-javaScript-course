@@ -40,7 +40,7 @@ Function are executed **before** the result is used in the rest of the expressio
 | 17 | [] | [Member Of](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_member_of2) | person["name"] |
 | 17 | ?. | [Optional Chaining](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_optional_chaining) [ECMAScript 2020](https://www.w3schools.com/js/js_2019.asp) | x ?. y |
 | 17 | () | [Function Call](https://www.w3schools.com/js/tryit.asp?filename=tryjs_functions) | myFunction() |
-| 17 | [new	New with Arguments](https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_new_arguments) | new Date("October 13, 2022") |
+| 17 | new |  [new	New with Arguments](https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_new_arguments) | new Date("October 13, 2022") |
 | 16 | new | [New without Arguments](https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_current) | new Date() |
 
 
