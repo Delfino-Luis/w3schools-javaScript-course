@@ -296,7 +296,6 @@ let padded = text.padStart(4,"0");
 
 ## Browser Support
 `padStart()` is an ECMAScript 2017 feature.
-
 It is supported in all modern browsers:
 ![](./img_02.png)
 `padStart()` is not supported in Internet Explorer.
@@ -336,7 +335,6 @@ let padded = text.padEnd(4,"0");
 
 ## Browser Support
 `padEnd()` is an ECMAScript 2017 feature.
-
 It is supported in all modern browsers:
 ![](./img_02.png)
 `padEnd()` is not supported in Internet Explorer.
