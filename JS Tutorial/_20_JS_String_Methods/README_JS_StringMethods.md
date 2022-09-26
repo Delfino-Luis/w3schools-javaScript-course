@@ -299,7 +299,6 @@ let padded = text.padStart(4,"0");
 
 It is supported in all modern browsers:
 ![](./img_02.png)
-
 `padStart()` is not supported in Internet Explorer.
 
 
@@ -340,7 +339,6 @@ let padded = text.padEnd(4,"0");
 
 It is supported in all modern browsers:
 ![](./img_02.png)
-
 `padEnd()` is not supported in Internet Explorer.
 
 
