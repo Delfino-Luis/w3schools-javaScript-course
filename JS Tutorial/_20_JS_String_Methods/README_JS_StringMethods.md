@@ -337,7 +337,7 @@ let padded = text.padEnd(4,"0");
 `padEnd()` is an ECMAScript 2017 feature.
 It is supported in all modern browsers:
 ![](./img_02.png)
-`padEnd()` is not supported in Internet Explorer.
+\n `padEnd()` is not supported in Internet Explorer.
 
 
 
