@@ -104,7 +104,6 @@ If a regular expression does not include the g modifier (to perform a *global* s
 ```javascript
 string.match(regexp)
 ```
-| | |
 |-|-|
 | regexp | Required. The value to search for, as a regular expression. |
 | Returns: | An Array, containing the matches, one item for each match, or null if no match is found |
@@ -132,12 +131,12 @@ text.includes("world");
 ```javascript
 string.includes(searchvalue, start)
 ```
-| |
-|-|
-|searchvalue  Required. The string to search for |
-| start	 Optional. Default 0. Position to start the search |
-| Returns:  Returns `true` if the string contains the value, otherwise `false` | 
-| JS Version:  ES6 (2015) |
+
+|-|-|
+|searchvalue | Required. The string to search for |
+| start	| Optional. Default 0. Position to start the search |
+| Returns: | Returns `true` if the string contains the value, otherwise `false` | 
+| JS Version: | ES6 (2015) |
 
 
 Check if a string includes "world", starting the search at position 12:
@@ -152,6 +151,8 @@ text.includes("world", 12);
 
 It is supported in all modern browsers:
 ![](./img_02.png)
+
+
 `includes()` is not supported in Internet Explorer.
 
 
@@ -209,6 +210,8 @@ The `startsWith()` method is case sensitive.
 
 It is supported in all modern browsers:
 ![](./img_02.png)
+
+
 `startsWith()` is not supported in Internet Explorer.
 
 
@@ -254,6 +257,8 @@ endsWith() is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
 ![](./img_02.png)
+
+
 `endsWith()` is not supported in Internet Explorer.
 
 
