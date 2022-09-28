@@ -209,7 +209,7 @@ The `startsWith()` method is case sensitive.
 `startsWith()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-![](./img_02.png)
+![](./img_02.png),
 
 `startsWith()` is not supported in Internet Explorer.
 
