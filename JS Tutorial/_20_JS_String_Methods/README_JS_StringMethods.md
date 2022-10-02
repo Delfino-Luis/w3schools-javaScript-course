@@ -254,12 +254,28 @@ let text2 = text1.trimStart();
 ```
 
 JavaScript String `trimStart()` is supported in all browsers since January 2020:
-| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/Opera_2015_icon.svg.png) |
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/opera-icon-uqjxmaiv5pyyzcsn-c.png) |
 |----|----|----|----|----|
 | Chrome 66 | Edge 79 | Firefox 61 | Safari 12 | Opera 50 |
 | Apr 2018 | Jan 2020 | Jun 2018 | Sep 2018 | May 2018 |
 
 
+## JavaScript String trimEnd()
+ECMAScript 2019 added the String method `trimEnd()` to JavaScript.
+
+The `trimEnd()` method works like `trim()`, but removes whitespace only from the end of a string.
+
+### Example
+```javascript
+let text1 = "     Hello World!     ";
+let text2 = text1.trimEnd();
+```
+
+JavaScript String `trimEnd()` is supported in all browsers since January 2020:
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/opera-icon-uqjxmaiv5pyyzcsn-c.png) |
+|----|----|----|----|----|
+| Chrome 66 | Edge 79 | Firefox 61 | Safari 12 | Opera 50 |
+| Apr 2018 | Jan 2020 | Jun 2018 | Sep 2018 | May 2018 |
 
 
 ## JavaScript String Padding
@@ -301,11 +317,10 @@ let padded = text.padStart(4,"0");
 ## Browser Support
 `padStart()` is an ECMAScript 2017 feature.
 It is supported in all modern browsers:
-| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/Opera_2015_icon.svg.png) |
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/opera-icon-uqjxmaiv5pyyzcsn-c.png) |
 |----|----|----|----|----|
-| Chrome 66 | Edge 79 | Firefox 61 | Safari 12 | Opera 50 |
-| Apr 2018 | Jan 2020 | Jun 2018 | Sep 2018 | May 2018 |
-
+| Chrome | Edge | Firefox | Safari | Opera |
+| Yes | Yes | Yes | Yes | Yes |
 
 `padStart()` is not supported in Internet Explorer.
 
@@ -345,7 +360,7 @@ let padded = text.padEnd(4,"0");
 ## Browser Support
 `padEnd()` is an ECMAScript 2017 feature.
 It is supported in all modern browsers:
-| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/Opera_2015_icon.svg.png) |
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/opera-icon-uqjxmaiv5pyyzcsn-c.png) |
 |----|----|----|----|----|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes |
