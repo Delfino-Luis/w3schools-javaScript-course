@@ -111,7 +111,10 @@ car = {type:"Volvo", model:"EX60", color:"red"};    // ERROR
 The `const` keyword is not supported in Internet Explorer 10 or earlier.
 
 The following table defines the first browser versions with full support for the `const` keyword:
-![](./Captura%20de%20Ecr%C3%A3.png)
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-icon.png) | ![](../../Icons/opera-icon-uqjxmaiv5pyyzcsn-c.png) |
+|----|----|----|----|----|
+| Chrome 49 | IE 11 / Edge | Firefox 36 | Safari 10 | Opera 36 |
+| Mar, 2016 | Oct, 2013 | Feb, 2015 | Sep, 2016 | Mar, 2016 |
 
 
 ## Block Scope
