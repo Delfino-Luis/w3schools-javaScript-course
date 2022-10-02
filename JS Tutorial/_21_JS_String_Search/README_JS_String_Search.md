@@ -150,9 +150,10 @@ text.includes("world", 12);
 `includes()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-![](./img_02.png)
-
-
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/Opera_2015_icon.svg.png) |
+|----|----|----|----|----|
+| Chrome | Edge | Firefox | Safari | Opera |
+| Yes | Yes | Yes | Yes | Yes |
 
 `includes()` is not supported in Internet Explorer.
 
@@ -209,10 +210,10 @@ The `startsWith()` method is case sensitive.
 ## Browser Support
 `startsWith()` is an ES6 feature (JavaScript 2015).
 
-It is supported in all modern browsers:
-![](./img_02.png)
-
-
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/Opera_2015_icon.svg.png) |
+|----|----|----|----|----|
+| Chrome | Edge | Firefox | Safari | Opera |
+| Yes | Yes | Yes | Yes | Yes |
 
 `startsWith()` is not supported in Internet Explorer.
 
@@ -255,10 +256,14 @@ The `endsWith()` method is case sensitive.
 
 
 ## Browser Support
-endsWith() is an ES6 feature (JavaScript 2015).
+`endsWith()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-![](./img_02.png)
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/Opera_2015_icon.svg.png) |
+|----|----|----|----|----|
+| Chrome | Edge | Firefox | Safari | Opera |
+| Yes | Yes | Yes | Yes | Yes |
+
 
 `endsWith()` is not supported in Internet Explorer.
 
