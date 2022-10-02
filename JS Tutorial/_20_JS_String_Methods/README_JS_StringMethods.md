@@ -254,7 +254,11 @@ let text2 = text1.trimStart();
 ```
 
 JavaScript String `trimStart()` is supported in all browsers since January 2020:
-![](./img_01.png)
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/Opera_2015_icon.svg.png) |
+|----|----|----|----|----|
+| Chrome 66 | Edge 79 | Firefox 61 | Safari 12 | Opera 50 |
+| Apr 2018 | Jan 2020 | Jun 2018 | Sep 2018 | May 2018 |
+
 
 
 
@@ -297,7 +301,11 @@ let padded = text.padStart(4,"0");
 ## Browser Support
 `padStart()` is an ECMAScript 2017 feature.
 It is supported in all modern browsers:
-![](./img_02.png)
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/Opera_2015_icon.svg.png) |
+|----|----|----|----|----|
+| Chrome 66 | Edge 79 | Firefox 61 | Safari 12 | Opera 50 |
+| Apr 2018 | Jan 2020 | Jun 2018 | Sep 2018 | May 2018 |
+
 
 `padStart()` is not supported in Internet Explorer.
 
@@ -337,7 +345,10 @@ let padded = text.padEnd(4,"0");
 ## Browser Support
 `padEnd()` is an ECMAScript 2017 feature.
 It is supported in all modern browsers:
-![](./img_02.png)
+| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Safari-Header-600x357.png) | ![](../../Icons/Opera_2015_icon.svg.png) |
+|----|----|----|----|----|
+| Chrome | Edge | Firefox | Safari | Opera |
+| Yes | Yes | Yes | Yes | Yes |
 
 `padEnd()` is not supported in Internet Explorer.
 
