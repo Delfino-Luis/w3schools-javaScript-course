@@ -150,7 +150,7 @@ text.includes("world", 12);
 `includes()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-| ![](../../Icons/Google_Chrome_icon_(February_2022).svg.png).svg.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/transferir.jpg) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
 |----|----|----|----|----|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes |
