@@ -63,9 +63,7 @@ let lastName = "Doe";
 let text = `Welcome ${firstName}, ${lastName}!`;
 ```
 
-```css
 Automatic replacing of variables with real values is called **string interpolation**.
-```
 
 
 ## Expression Substitution
