@@ -4,7 +4,7 @@ JavaScript has only one type of number. Numbers can be written with or without d
 
 
 ### Example
-```javascript
+```js
 let x = 3.14;    // A number with decimals
 let y = 3;       // A number without decimals
 ```
@@ -13,7 +13,7 @@ Extra large or extra small numbers can be written with scientific (exponent) not
 
 
 ### Example
-```javascript
+```js
 let x = 123e5;    // 12300000
 let y = 123e-5;   // 0.00123
 ```
@@ -35,7 +35,7 @@ This format stores numbers in 64 bits, where the number (the fraction) is stored
 Integers (numbers without a period or exponent notation) are accurate up to 15 digits.
 
 ### Example
-```javascript
+```js
 let x = 999999999999999;   // x will be 999999999999999
 let y = 9999999999999999;  // y will be 10000000000000000
 ```
@@ -45,12 +45,12 @@ The maximum number of decimals is 17.
 
 ## Floating Precision
 Floating point arithmetic is not always 100% accurate:
-```javascript
+```js
 let x = 0.2 + 0.1;
 ```
 
 To solve the problem above, it helps to multiply and divide:
-```javascript
+```js
 let x = (0.2 * 10 + 0.1 * 10) / 10;
 ```
 
@@ -67,7 +67,7 @@ Numbers are added. Strings are concatenated.
 If you add two numbers, the result will be a number:
 
 ### Example
-```javascript
+```js
 let x = 10;
 let y = 20;
 let z = x + y;
@@ -76,7 +76,7 @@ let z = x + y;
 If you add two strings, the result will be a string concatenation:
 
 ### Example
-```javascript
+```js
 let x = "10";
 let y = "20";
 let z = x + y;
@@ -85,7 +85,7 @@ let z = x + y;
 If you add a number and a string, the result will be a string concatenation:
 
 ### Example
-```javascript
+```js
 let x = 10;
 let y = "20";
 let z = x + y;
@@ -94,7 +94,7 @@ let z = x + y;
 If you add a string and a number, the result will be a string concatenation:
 
 ### Example
-```javascript
+```js
 let x = "10";
 let y = 20;
 let z = x + y;
@@ -103,7 +103,7 @@ let z = x + y;
 A common mistake is to expect this result to be 30:
 
 ### Example
-```javascript
+```js
 let x = 10;
 let y = 20;
 let z = "The result is: " + x + y;
@@ -112,7 +112,7 @@ let z = "The result is: " + x + y;
 A common mistake is to expect this result to be 102030:
 
 ### Example
-```javascript
+```js
 let x = 10;
 let y = 20;
 let z = "30";
@@ -130,7 +130,7 @@ Then 30 + "30" is concatenated because z is a string.
 
 ## Numeric Strings
 JavaScript strings can have numeric content:
-```javascript
+```js
 let x = 100;         // x is a number
 
 let y = "100";       // y is a string
@@ -140,14 +140,15 @@ JavaScript will try to convert strings to numbers in all numeric operations:
 
 This will work:
 
-```javascript
+```js
 let x = "100";
 let y = "10";
 let z = x / y;
 ```
 
 This will also work:
-```javascript
+
+```js
 let x = "100";
 let y = "10";
 let z = x * y;
@@ -155,7 +156,7 @@ let z = x * y;
 
 And this will work:
 
-```javascript
+```js
 let x = "100";
 let y = "10";
 let z = x - y;
@@ -163,7 +164,7 @@ let z = x - y;
 
 But this will not work:
 
-```javascript
+```js
 let x = "100";
 let y = "10";
 let z = x + y;
@@ -180,14 +181,14 @@ In the last example JavaScript uses the + operator to concatenate the strings.
 Trying to do arithmetic with a non-numeric string will result in `NaN` (Not a Number):
 
 ### Example
-```javascript
+```js
 let x = 100 / "Apple";
 ```
 
 However, if the string contains a numeric value , the result will be a number:
 
 ### Example
-```javascript
+```js
 let x = 100 / "10";
 ```
 
@@ -195,7 +196,7 @@ let x = 100 / "10";
 You can use the global JavaScript function `isNaN()` to find out if a value is a not a number:
 
 ### Example
-```javascript
+```js
 let x = 100 / "Apple";
 isNaN(x);
 ```
@@ -204,7 +205,7 @@ isNaN(x);
 Watch out for `NaN`. If you use `NaN` in a mathematical operation, the result will also be `NaN`:
 
 ### Example
-```javascript
+```js
 let x = NaN;
 let y = 5;
 let z = x + y;
@@ -213,7 +214,7 @@ let z = x + y;
 Or the result might be a concatenation like NaN5:
 
 ### Example
-```javascript
+```js
 let x = NaN;
 let y = "5";
 let z = x + y;
@@ -222,7 +223,7 @@ let z = x + y;
 `NaN` is a number: `typeof NaN` returns `number`:
 
 ### Example
-```javascript
+```js
 typeof NaN;
 ```
 
@@ -231,7 +232,7 @@ typeof NaN;
 `Infinity` (or -`Infinity`) is the value JavaScript will return if you calculate a number outside the largest possible number.
 
 ### Example
-```javascript
+```js
 let myNumber = 2;
 // Execute until Infinity
 while (myNumber != Infinity) {
@@ -242,7 +243,7 @@ while (myNumber != Infinity) {
 Division by 0 (zero) also generates `Infinity`:
 
 ### Example
-```javascript
+```js
 let x =  2 / 0;
 let y = -2 / 0;
 ```
@@ -250,7 +251,7 @@ let y = -2 / 0;
 `Infinity` is a number: `typeof Infinity` returns `number`.
 
 ### Example
-```javascript
+```js
 typeof Infinity;
 ```
 
@@ -259,7 +260,7 @@ typeof Infinity;
 JavaScript interprets numeric constants as hexadecimal if they are preceded by 0x.
 
 ### Example
-```javascript
+```js
 let x = 0xFF;
 ```
 
@@ -275,7 +276,7 @@ But you can use the toString() method to output numbers from **base 2 to base 36
 Hexadecimal is **base 16.** Decimal is **base 10.** Octal is **base 8.** Binary is **base 2.**
 
 ### Example
-```javascript
+```js
 let myNumber = 32;
 myNumber.toString(32);
 myNumber.toString(16);
@@ -311,13 +312,13 @@ The `new` keyword complicates the code and slows down execution speed.
 Number Objects can produce unexpected results:
 
 When using the `==` operator, x and y are **equal**:
-```javascript
+```js
 let x = 500;
 let y = new Number(500);
 ```
 
 When using the `===` operator, x and y are **not equal.**
-```javascript
+```js
 let x = 500;
 let y = new Number(500);
 ```
@@ -325,14 +326,14 @@ let y = new Number(500);
 Note the difference between `(x==y)` and `(x===y)`.
 
 `(x == y)` true or false?
-```javascript
+```js
 let x = new Number(500);
 let y = new Number(500);
 ```
 
 
 `(x === y)` true or false?
-```javascript
+```js
 let x = new Number(500);
 let y = new Number(500);
 ```
