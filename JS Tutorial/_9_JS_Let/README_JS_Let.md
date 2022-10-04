@@ -1,4 +1,5 @@
 # JavaScript Let
+
 The `let` keyword was introduced in [ES6 (2015)](https://www.w3schools.com/js/js_es6.asp).
 
 Variables defined with `let` cannot be Redeclared.
@@ -100,7 +101,7 @@ Browser Support
 The `let` keyword is not fully supported in Internet Explorer 11 or earlier.
 
 The following table defines the first browser versions with full support for the `let` keyword:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/transferir.jpg) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
 |----|----|----|----|----|
 | Chrome 49 | Edge 12 | Firefox 44 | Safari 11 | Opera 36 |
 | Mar, 2016 | Jul, 2015 | Jan, 2015 | Sep, 2017 | Mar, 2016 |
