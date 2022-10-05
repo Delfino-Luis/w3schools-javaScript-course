@@ -401,10 +401,8 @@ fruits instanceof Array;
 
 
 ## Complete Array Reference
-```css
 For a complete Array reference, go to our:
 
 [Complete JavaScript Array Reference](https://www.w3schools.com/jsref/jsref_obj_array.asp).
 
 The reference contains descriptions and examples of all Array properties and methods.
-```
