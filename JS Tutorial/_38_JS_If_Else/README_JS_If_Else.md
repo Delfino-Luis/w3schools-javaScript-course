@@ -112,4 +112,5 @@ Good evening
 
 ## More Examples
 [Random link](https://www.w3schools.com/js/tryit.asp?filename=tryjs_randomlink)
+
 This example will write a link to either W3Schools or to the World Wildlife Foundation (WWF). By using a random number, there is a 50% chance for each of the links.
