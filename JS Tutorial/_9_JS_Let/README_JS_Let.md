@@ -101,7 +101,7 @@ Browser Support
 The `let` keyword is not fully supported in Internet Explorer 11 or earlier.
 
 The following table defines the first browser versions with full support for the `let` keyword:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |----|----|----|----|----|
 | Chrome 49 | Edge 12 | Firefox 44 | Safari 11 | Opera 36 |
 | Mar, 2016 | Jul, 2015 | Jan, 2015 | Sep, 2017 | Mar, 2016 |
