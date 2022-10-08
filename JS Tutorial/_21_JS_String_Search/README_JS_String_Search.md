@@ -104,8 +104,8 @@ If a regular expression does not include the g modifier (to perform a *global* s
 ```javascript
 string.match(regexp)
 ```
-| | |
 | regexp | Required. The value to search for, as a regular expression. |
+|------|------------|
 | Returns: | An Array, containing the matches, one item for each match, or null if no match is found |
 
 
@@ -131,9 +131,8 @@ text.includes("world");
 ```javascript
 string.includes(searchvalue, start)
 ```
-| | |
-|-|-|
 |searchvalue | Required. The string to search for |
+|----------|-------------|
 | start	| Optional. Default 0. Position to start the search |
 | Returns: | Returns `true` if the string contains the value, otherwise `false` | 
 | JS Version: | ES6 (2015) |
@@ -150,7 +149,7 @@ text.includes("world", 12);
 `includes()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |----|----|----|----|----|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes |
@@ -210,7 +209,7 @@ The `startsWith()` method is case sensitive.
 ## Browser Support
 `startsWith()` is an ES6 feature (JavaScript 2015).
 
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |----|----|----|----|----|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes |
@@ -259,7 +258,7 @@ The `endsWith()` method is case sensitive.
 `endsWith()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |----|----|----|----|----|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes |
