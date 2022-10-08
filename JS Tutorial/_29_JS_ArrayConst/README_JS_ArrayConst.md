@@ -51,7 +51,7 @@ cars.push("Audi");
 The `const` keyword is not supported in Internet Explorer 10 or earlier.
 
 The following table defines the first browser versions with full support for the `const` keyword:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |---------|---------|---------|---------|---------|
 |Chrome 49 | IE 11 / Edge | Firefox 36 | Safari 10 | Opera 36 |
 |Mar, 2016 | Oct, 2013 | Feb, 2015 | Sep, 2016 | Mar, 2016 |
