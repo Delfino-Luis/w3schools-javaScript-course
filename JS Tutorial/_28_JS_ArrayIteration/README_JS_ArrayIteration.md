@@ -349,7 +349,7 @@ Note that the function takes 3 arguments:
 `find()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |---------|---------|---------|---------|---------|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes | 
@@ -384,7 +384,7 @@ Note that the function takes 3 arguments:
 `findIndex()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |---------|---------|---------|---------|---------|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes | 
@@ -408,7 +408,7 @@ Array.from("ABCDEFG");
 `from()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |---------|---------|---------|---------|---------|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes | 
@@ -436,7 +436,7 @@ for (let x of keys) {
 `keys()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |---------|---------|---------|---------|---------|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes | 
@@ -470,7 +470,7 @@ The `entries()` method does not change the original array.
 `entries()` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |---------|---------|---------|---------|---------|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes |
@@ -508,7 +508,7 @@ The first browser versions with full support are:
 `includes()` is an ECMAScript 2016 feature.
 
 It is supported in all modern browsers:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Johanchalibert-Mac-Osx-Yosemite-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |---------|---------|---------|---------|---------|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes |
