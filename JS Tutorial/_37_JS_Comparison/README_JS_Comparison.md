@@ -14,11 +14,11 @@ Given that `x = 5`, the table below explains the comparison operators:
 |------|----|----|-------|
 | ==	| equal to	| 4 == 8	| false |	
 | == | equal to | 5 == 5 \|\| 5 == "5" | true	 |
-| === | equal value and equal type	| x === 5 | true |
+| === | equal value and equal type	| 5 === 5 | true |
 | === | equal value and equal type | 5 === "5" | false	 |
-| != | not equal | x != 8 | true |	
-| !== | not equal value or not equal type | x !== 5	| false |
-| !== | not equal value or not equal type | x !== "5" \|\| x !== 8 | true |
+| != | not equal | 7 != 8 | true |	
+| !== | not equal value or not equal type | 5 !== 5	| false |
+| !== | not equal value or not equal type | 5 !== "5" \|\| "8" !== 8 | true |
 | >	| greater than	| 6 > 8	| false	|
 | <	| less than	| 6 < 8	| true |
 | >= | greater than or equal to	| 7 >= 8 |false	|
@@ -43,6 +43,7 @@ Logical operators are used to determine the logic between variables or values.
 Given that `x = 6` and `y = 3`, the table below explains the logical operators:
 
 | **Operator**	| **Description** | **Example**	| 
+|---------------|-----------------|-------------|
 | && | and	| (x < 10 && y > 1) is true |
 | \|\|	| or | (x == 5 || y == 5) is false |
 | ! | not | !(x == y) is true |
