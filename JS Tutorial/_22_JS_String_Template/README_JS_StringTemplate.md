@@ -102,7 +102,7 @@ html += `</ul>`;
 `Template Literals` is an ES6 feature (JavaScript 2015).
 
 It is supported in all modern browsers:
-| ![](../../Icons/chrome.png) | ![](../../Icons/edge_browser_logo_icon_152998.png) | ![](../../Icons/firefox-logo.png) | ![](../../Icons/Wineass-Ios7-Redesign-Safari.ico) | ![](../../Icons/opera-icon-29.png) |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |--|--|--|--|--|
 | Chrome | Edge | Firefox | Safari | Opera |
 | Yes | Yes | Yes | Yes | Yes |
