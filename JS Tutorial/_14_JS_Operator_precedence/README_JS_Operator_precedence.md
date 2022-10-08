@@ -46,25 +46,22 @@ Function are executed **before** the result is used in the rest of the expressio
 
 ## Increment Operators 
 Posfix increments are executed **before** prefix increments
-| | | | |
-|---|---|---------------------|--------|
 | 15 | ++ | [Postfix Increment](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_incr2) | i++ |
+|-------|-------|-----------|----------|
 | 15 | -- | [Postfix Decrement](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_decr2) | i-- |
 | 14 | ++ | [Prefix Increment](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_incr) | ++i |
 | 14 | -- | [Prefix Decrement](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_decr) | --i |
 
 
 ## Logical Operators
-| | | | |
-|---|---|-----------------------|--------|
 | 14 | ! | [Logical NOT](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_not) | !(x==y) |
+|-------|-------|-----------|----------|
 | 14 | ~ | [Bitwise NOT](https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_not) | ~x |
 
 
 ## Unary Operators
-| | | | |
-|---|---|-----------------------|--------|
 | 14 | + | [Unary Plus](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_unary_plus) | +x |
+|-------|-------|-----------|----------|
 | 14 | - | [Unary Minus](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_unary_minus) | -x |
 | 14 | typeof |	[Data Type](https://www.w3schools.com/js/tryit.asp?filename=tryjs_typeof_all) | typeof x |
 | 14 | void	| [Evaluate Void](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_void)	| void(0) |
@@ -74,9 +71,8 @@ Posfix increments are executed **before** prefix increments
 ## Arithmetic Operators
 Exponentiations are executed **before** multiplications
 Multiplications and divisions are executed **before** additions and subtractions
-| | | | |
-|---|---|-----------------------|--------|
 | 13 | ** | [Exponentiation](https://www.w3schools.com/js/tryit.asp?filename=tryjs_arithmetric_exponent1), [ECMAScript 2016](https://www.w3schools.com/js/js_2016.asp)	| 10 ** 2 |
+|-------|-------|-----------|----------|
 | 12 | * | [Multiplication](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_mult) | 10 * 5 |
 | 12 | / | [Division](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_div)	| 10 / 5 |
 | 12 | % | [Division Remainder](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_mod) | 10 % 5 |
@@ -86,24 +82,21 @@ Multiplications and divisions are executed **before** additions and subtractions
 
 
 ## Shift Operators
-| | | | |
-|---|---|-----------------------|--------|
 | 10 | << | [Shift Left](https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_left)	| x << 2 |
+|-------|-------|-----------|----------|
 | 10 | >> | [Shift Right (signed)](https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_right_sign) | x >> 2 |
 | 10 | >>>	| [Shift Right (unsigned)](https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_right) | x >>> 2 |
 
 
 ## Relational Operators
-| | | | |
-|---|---|-----------------------|--------|
 | 9	| in | [Property in Object](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_in) | "PI" in Math |
+|-------|-------|-----------|----------|
 | 9	| instanceof | [Instance of Object](https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_instanceof) | x instanceof Array |
 
 
 ## Comparison Operators
-| | | | |
-|---|---|-----------------------|--------|
 | 9	| <	| [Less than](https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison9)	| x < y  |
+|-------|-------|-----------|----------|
 | 9	| <= | [Less than or equal](https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison11) | x <= y |
 | 9	| >	| [Greater than](https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison8) | x > y |
 | 9	| >= | [Greater than or equal](https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison10) | x >= Array |
@@ -114,32 +107,27 @@ Multiplications and divisions are executed **before** additions and subtractions
 
 
 ## Bitwise Operators
-| | | | |
-|---|---|-----------------------|--------|
 | 7	| &	| [Bitwise AND](https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_and) | x & y |
+|-------|-------|-----------|----------|
 | 6	| ^	| [Bitwise XOR](https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_xor) | x ^ y |
 | 5	| \| | [Bitwise OR](https://www.w3schools.com/js/tryit.asp?filename=tryjs_bitwise_or) | x | y |
 
 
 ## Logical Operators
-| | | | |
-|---|---|-----------------------|--------|
 | 4	| && | [Logical AND](https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison_and) | x && y |
+|-------|-------|-----------|----------|
 | 3	| \|\| | [Logical OR](https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison_or)	| x \|\| y |
 | 3	| ?? | [Nullish Coalescing](https://www.w3schools.com/js/tryit.asp?filename=tryjs_nullish), [ECMAScript 2020](https://www.w3schools.com/js/js_2019.asp) |	x ?? y |
 
 
 ## Conditional (ternary) Operator
-| | | | |
-|---|---|-----------------------|--------|
 | 2	| ? : | [Condition](https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison) | ? "yes" : "no" |
-
+|-------|-------|-----------|----------|
 
 ## Assignment Operators
 Assignments are executed **after** other operations
-| | | | |
-|---|---|-----------------------|--------|
 | 2	| =	| [Simple Assignment](https://www.w3schools.com/js/tryit.asp?filename=tryjs_assign_equal)	| x += y |
+|-------|-------|-----------|----------|
 | 2	| += | [Addition Assignment](https://www.w3schools.com/js/tryit.asp?filename=tryjs_assign_plusequal) | x += y |
 | 2	| -= | [Subtraction Assignment](https://www.w3schools.com/js/tryit.asp?filename=tryjs_assign_minequal) | x -= y | 
 | 2	| *= | [Multiplication Assignment](https://www.w3schools.com/js/tryit.asp?filename=tryjs_assign_multequal) | x *= y |
