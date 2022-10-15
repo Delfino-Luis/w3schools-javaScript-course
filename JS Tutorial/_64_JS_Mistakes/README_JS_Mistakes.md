@@ -297,13 +297,13 @@ JSON does not allow trailing commas.
 ```
 
 
-## JSON:
-```json
+### JSON:
+```js
 person = {"firstName":"John", "lastName":"Doe", "age":46}
 ```
 
-## JSON:
-```json
+### JSON:
+```js
 points = [40, 100, 1, 5, 25, 10];
 ```
 
