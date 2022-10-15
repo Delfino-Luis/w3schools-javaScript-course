@@ -56,7 +56,7 @@ JavaScript is often used together with Java. You should avoid using some Java ob
 
 | getClass	| java	| JavaArray	|
 |------|--------|--------|
-| JavaObject	JavaPackage	| javaClass |
+| JavaObject | JavaPackage	| javaClass |
 
 
 ## Other Reserved Words
