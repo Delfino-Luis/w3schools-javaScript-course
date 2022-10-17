@@ -15,54 +15,44 @@ Since 2016, versions are named by year (ECMAScript 2016, 2017, 2018, 2019, 2020)
 |-----|-----|-----|
 | ES1	| ECMAScript 1 (1997)	| First edition |
 | ES2	| ECMAScript 2 (1998)	| Editorial changes |
-| ES3	| ECMAScript 3 (1999)	| Added regular expressions\n 
-Added try/catch\n
-Added switch
-Added do-while |
+| ES3	| ECMAScript 3 (1999)	| Added regular expressions | 
+| ES3	| ECMAScript 3 (1999)	| Added try/catch |
+| ES3	| ECMAScript 3 (1999)	| Added switch |
+| ES3	| ECMAScript 3 (1999)	| Added do-while |
+
 | ES4	| ECMAScript 4	| Never released |
+| ES5	| ECMAScript 5 (2009) | Added "strict mode" |
+| ES5	| ECMAScript 5 (2009) | Added JSON support |
+| ES5	| ECMAScript 5 (2009) | Added String.trim() |
+| ES5	| ECMAScript 5 (2009) | Added Array.isArray() |
+| ES5	| ECMAScript 5 (2009) | Added Array iteration methods |
+| ES5	| ECMAScript 5 (2009) | Allows trailing commas for object literals |
 
-| ES5	| ECMAScript 5 (2009) |
+| ES6	| ECMAScript 2015 | Added let and const |
+| ES6	| ECMAScript 2015 | Added default parameter values |
+| ES6	| ECMAScript 2015 | Added Array.find() |
+| ES6	| ECMAScript 2015 | Added Array.findIndex() |
 
-Added "strict mode"
-Added JSON support
-Added String.trim()
-Added Array.isArray()
-Added Array iteration methods
-Allows trailing commas for object literals |
+| ES2016 | ECMAScript 2016 | Added exponential operator (**) |
+| ES2016 | ECMAScript 2016 | Added Array.includes() |
 
-| ES6	| ECMAScript 2015 |
+| ES2017 | ECMAScript 2017 | Added string padding |
+| ES2017 | ECMAScript 2017 | Added Object.entries() |
+| ES2017 | ECMAScript 2017 | Added Object.values() |
+| ES2017 | ECMAScript 2017 | Added async functions |
+| ES2017 | ECMAScript 2017 | Added shared memory |
+| ES2017 | ECMAScript 2017 | Allows trailing commas for function parameters |
 
-Added let and const\n
-Added default parameter values
-Added Array.find()
-Added Array.findIndex() |
+| ES2018 | ECMAScript 2018 | Added rest / spread properties |
+| ES2018 | ECMAScript 2018 | Added asynchronous iteration |
+| ES2018 | ECMAScript 2018 | Added Promise.finally() |
+| ES2018 | ECMAScript 2018 | Additions to RegExp |
 
-| ES2016 | ECMAScript 2016 | Added exponential operator (**)
-Added Array.includes() |
-
-| ES2017 | ECMAScript 2017
-
-Added string padding
-Added Object.entries()
-Added Object.values()
-Added async functions
-Added shared memory
-Allows trailing commas for function parameters |
-
-| ES2018 | ECMAScript 2018 | 
-
-Added rest / spread properties
-Added asynchronous iteration
-Added Promise.finally()
-Additions to RegExp |
-
-| ES2019 | ECMAScript 2019 |
-
-String.trimStart()
-String.trimEnd()
-Array.flat()
-Object.fromEntries
-Optional catch binding |
+| ES2019 | ECMAScript 2019 | String.trimStart() |
+| ES2019 | ECMAScript 2019 | String.trimEnd() |
+| ES2019 | ECMAScript 2019 | Array.flat() |
+| ES2019 | ECMAScript 2019 | Object.fromEntries |
+| ES2019 | ECMAScript 2019 | Optional catch binding |
 
 | ES2020 | ECMAScript 2020 | The Nullish Coalescing Operator (??) |
 
