@@ -19,7 +19,6 @@ Since 2016, versions are named by year (ECMAScript 2016, 2017, 2018, 2019, 2020)
 | ES3	| ECMAScript 3 (1999)	| Added try/catch |
 | ES3	| ECMAScript 3 (1999)	| Added switch |
 | ES3	| ECMAScript 3 (1999)	| Added do-while |
-
 | ES4	| ECMAScript 4	| Never released |
 | ES5	| ECMAScript 5 (2009) | Added "strict mode" |
 | ES5	| ECMAScript 5 (2009) | Added JSON support |
@@ -27,33 +26,27 @@ Since 2016, versions are named by year (ECMAScript 2016, 2017, 2018, 2019, 2020)
 | ES5	| ECMAScript 5 (2009) | Added Array.isArray() |
 | ES5	| ECMAScript 5 (2009) | Added Array iteration methods |
 | ES5	| ECMAScript 5 (2009) | Allows trailing commas for object literals |
-
 | ES6	| ECMAScript 2015 | Added let and const |
 | ES6	| ECMAScript 2015 | Added default parameter values |
 | ES6	| ECMAScript 2015 | Added Array.find() |
 | ES6	| ECMAScript 2015 | Added Array.findIndex() |
-
 | ES2016 | ECMAScript 2016 | Added exponential operator (**) |
 | ES2016 | ECMAScript 2016 | Added Array.includes() |
-
 | ES2017 | ECMAScript 2017 | Added string padding |
 | ES2017 | ECMAScript 2017 | Added Object.entries() |
 | ES2017 | ECMAScript 2017 | Added Object.values() |
 | ES2017 | ECMAScript 2017 | Added async functions |
 | ES2017 | ECMAScript 2017 | Added shared memory |
 | ES2017 | ECMAScript 2017 | Allows trailing commas for function parameters |
-
 | ES2018 | ECMAScript 2018 | Added rest / spread properties |
 | ES2018 | ECMAScript 2018 | Added asynchronous iteration |
 | ES2018 | ECMAScript 2018 | Added Promise.finally() |
 | ES2018 | ECMAScript 2018 | Additions to RegExp |
-
 | ES2019 | ECMAScript 2019 | String.trimStart() |
 | ES2019 | ECMAScript 2019 | String.trimEnd() |
 | ES2019 | ECMAScript 2019 | Array.flat() |
 | ES2019 | ECMAScript 2019 | Object.fromEntries |
 | ES2019 | ECMAScript 2019 | Optional catch binding |
-
 | ES2020 | ECMAScript 2020 | The Nullish Coalescing Operator (??) |
 
 
