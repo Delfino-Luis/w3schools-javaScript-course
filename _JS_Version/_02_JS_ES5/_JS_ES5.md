@@ -6,9 +6,9 @@ This chapter describes the most important features of ES5.
 ```
 
 ## ES5 Features
-* ["use strict"]()
-* [String[number] access]()
-* [Multiline strings]()
+* ["use strict"](#)
+* [String[number] access](#)
+* [Multiline strings](#)
 * [String.trim()]()
 * [Array.isArray()]()
 * [Array forEach()]()
@@ -36,7 +36,7 @@ This chapter describes the most important features of ES5.
 
 ## Browser Support
 `ES5` is fully supported in all modern browsers:
-| ![]() | ![]() | ![]() | ![]() | ![]() |
+| ![](../../Icons/compatible_chrome.png) | ![](../../Icons/compatible_edge.png) | ![](../../Icons/compatible_firefox.png) | ![](../../Icons/compatible_safari.png) | ![](../../Icons/compatible_opera.png) |
 |----|----|----|----|----|
 | Chrome	| Edge	| Firefox	| Safari	| Opera |
 | Yes	|	Yes	| Yes	| Yes	| Yes |
