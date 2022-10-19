@@ -15,7 +15,7 @@ After Netscape handed JavaScript over to ECMA, the Mozilla foundation continued 
 | 1996	|   | Netscape 2 was released with JavaScript 1.0 |
 | 1997	|   | JavaScript became an ECMA standard (ECMA-262) |
 | 1997	| ES1	| ECMAScript 1 was released |
-1997	ES1	IE 4 was the first browser to support ES1
+1997	| ES1	| IE 4 was the first browser to support ES1
 | 1998	| ES2	| ECMAScript 2 was released |
 | 1998	|  	| Netscape 42 was released with JavaScript 1.3 |
 | 1999	| ES2	| IE 5 was the first browser to support ES2 |
@@ -43,9 +43,9 @@ After Netscape handed JavaScript over to ECMA, the Mozilla foundation continued 
 
 
 ## Note
- * Internet Explorer 9 did not support ES5 "use strict".
+    * Internet Explorer 9 did not support ES5 "use strict".
 
- ** Internet Explorer 11 does not support ES6.
+    ** Internet Explorer 11 does not support ES6.
 
 
 ## The ECMA Technical Committee 39
