@@ -3,8 +3,8 @@
 Microsoft ended all support for Internet Explorer J**une 15, 2022.**
 
 ### Internet Explorer Retirement Dates:
-|------|--------|
 | 17-08-2020	| This announcement |
+|------|--------|
 | 30-11-2020	| MS Teams ended support for IE 11 |
 | 31-12-2020	| Azure DevOps Services ended support for IE 11 |
 | 31-03-2021	| Azure Portal ended support for IE 11 |
@@ -51,8 +51,8 @@ Future Windows updates will replace Edge Legacy with **The New Edge.**
 
 
 #### Retirement dates published August 17, 2020:
-|------|---------|
 | 31-12-2020	| Azure DevOps Services stops supporting Edge Legacy |
+|------|--------|
 | 09-03-2021	| End of Windows updates for Edge Legacy |
 | 13-04-2021	| Future Windows updates will remove Edge Legacy |
 
