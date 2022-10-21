@@ -19,7 +19,9 @@ Some common solutions to display JavaScript objects are:
 * Displaying the Object Properties in a Loop
 * Displaying the Object using Object.values()
 * Displaying the Object using JSON.stringify()
-* Displaying Object Properties
+
+
+## Displaying Object Properties
 
 
 The properties of an object can be displayed as a string:
