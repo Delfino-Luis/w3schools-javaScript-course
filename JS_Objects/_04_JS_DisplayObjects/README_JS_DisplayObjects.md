@@ -1,6 +1,6 @@
 JavaScript Display Objects
 How to Display JavaScript Objects?
-Displaying a JavaScript object will output [object Object].
+Displaying a JavaScript object will output **[object Object].**
 
 ### Example
 ```js
