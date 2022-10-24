@@ -43,7 +43,7 @@ In JavaScript, the `this` keyword refers to an **object.**
 
 The `this` keyword refers to different objects depending on how it is used:
 
-| features of **this** |
+| Features of **this** |
 |-----|
 | In an object method, `this` refers to the **object.** |
 | Alone, `this` refers to the **global object.** |
