@@ -1,6 +1,6 @@
 # JavaScript Async
 
-*"async and await make promises easier to write"*
+### *"async and await make promises easier to write"*
 
 **async** makes a function return a Promise
 
