@@ -1,7 +1,7 @@
 # JavaScript Promises
 
 
-### *"I Promise a Result!"*
+## *"I Promise a Result!"*
 
 "Producing code" is code that can take some time
 
