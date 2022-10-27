@@ -1,27 +1,32 @@
-JavaScript HTML DOM
+# JavaScript HTML DOM
+
 With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
 
-The HTML DOM (Document Object Model)
-When a web page is loaded, the browser creates a Document Object Model of the page.
+## The HTML DOM (Document Object Model)
+When a web page is loaded, the browser creates a **D**ocument **O**bject **M**odel of the page.
 
-The HTML DOM model is constructed as a tree of Objects:
+The **HTML DOM** model is constructed as a tree of **Objects:**
 With the object model, JavaScript gets all the power it needs to create dynamic HTML:
 
-JavaScript can change all the HTML elements in the page
-JavaScript can change all the HTML attributes in the page
-JavaScript can change all the CSS styles in the page
-JavaScript can remove existing HTML elements and attributes
-JavaScript can add new HTML elements and attributes
-JavaScript can react to all existing HTML events in the page
-JavaScript can create new HTML events in the page
-What You Will Learn
+* JavaScript can change all the HTML elements in the page
+* JavaScript can change all the HTML attributes in the page
+* JavaScript can change all the CSS styles in the page
+* JavaScript can remove existing HTML elements and attributes
+* JavaScript can add new HTML elements and attributes
+* JavaScript can react to all existing HTML events in the page
+* JavaScript can create new HTML events in the page
+
+
+## What You Will Learn
 In the next chapters of this tutorial you will learn:
 
-How to change the content of HTML elements
-How to change the style (CSS) of HTML elements
-How to react to HTML DOM events
-How to add and delete HTML elements
-What is the DOM?
+* How to change the content of HTML elements
+* How to change the style (CSS) of HTML elements
+* How to react to HTML DOM events
+* How to add and delete HTML elements
+
+
+## What is the DOM?
 The DOM is a W3C (World Wide Web Consortium) standard.
 
 The DOM defines a standard for accessing documents:
