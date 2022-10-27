@@ -35,14 +35,19 @@ The DOM defines a standard for accessing documents:
 
 The W3C DOM standard is separated into 3 different parts:
 
-Core DOM - standard model for all document types
-XML DOM - standard model for XML documents
-HTML DOM - standard model for HTML documents
-What is the HTML DOM?
-The HTML DOM is a standard object model and programming interface for HTML. It defines:
+* Core DOM - standard model for all document types
+* XML DOM - standard model for XML documents
+* HTML DOM - standard model for HTML documents
 
-The HTML elements as objects
-The properties of all HTML elements
-The methods to access all HTML elements
-The events for all HTML elements
-In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+
+## What is the HTML DOM?
+The HTML DOM is a standard **object** model and **programming interface** for HTML. It defines:
+
+* The HTML elements as objects
+* The properties of all HTML elements
+* The methods to access all HTML elements
+* The events for all HTML elements
+
+
+In other words: **The HTML DOM is a standard for how to get, change, add, or delete HTML elements.**
