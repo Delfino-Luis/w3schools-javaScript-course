@@ -74,7 +74,7 @@ Later, in HTML DOM Level 3, more objects, collections, and properties were added
 | document.links	| Returns all <area> and <a> elements that have a href attribute	| 1 |
 | document.readyState	| Returns the (loading) status of the document	| 3 |
 | document.referrer	| Returns the URI of the referrer (the linking document)	| 1 |
-document.scripts	Returns all <script> elements	3
+| document.scripts	| Returns all <script> elements	| 3 |
 document.strictErrorChecking	Returns if error checking is enforced	3
 document.title	Returns the <title> element	1
 document.URL	Returns the complete URL of the document	1
