@@ -58,7 +58,7 @@ Later, in HTML DOM Level 3, more objects, collections, and properties were added
 | document.baseURI	| Returns the absolute base URI of the document	| 3 |
 | document.body	| Returns the <body> element	| 1 |
 | document.cookie	| Returns the document's cookie	| 1 |
-document.doctype	Returns the document's doctype	3
+| document.doctype	| Returns the document's doctype	| 3 |
 document.documentElement	Returns the <html> element	3
 document.documentMode	Returns the mode used by the browser	3
 document.documentURI	Returns the URI of the document	3
