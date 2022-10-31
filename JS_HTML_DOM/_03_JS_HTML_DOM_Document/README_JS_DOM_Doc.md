@@ -68,10 +68,10 @@ Later, in HTML DOM Level 3, more objects, collections, and properties were added
 | document.forms	| Returns all <form> elements	| 1 |
 | document.head	| Returns the <head> element	| 3 |
 | document.images	| Returns all <img> elements	| 1 |
-document.implementation	Returns the DOM implementation	3
-document.inputEncoding	Returns the document's encoding (character set)	3
-document.lastModified	Returns the date and time the document was updated	3
-document.links	Returns all <area> and <a> elements that have a href attribute	1
+| document.implementation	| Returns the DOM implementation	| 3 |
+| document.inputEncoding	| Returns the document's encoding (character set)	| 3 |
+| document.lastModified	| Returns the date and time the document was updated	| 3 |
+| document.links	| Returns all <area> and <a> elements that have a href attribute	| 1 |
 document.readyState	Returns the (loading) status of the document	3
 document.referrer	Returns the URI of the referrer (the linking document)	1
 document.scripts	Returns all <script> elements	3
