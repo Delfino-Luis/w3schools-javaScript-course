@@ -67,24 +67,28 @@ const x = document.querySelectorAll("p.intro");
 
 
 ## Finding HTML Elements by HTML Object Collections
-This example finds the form element with id="frm1", in the forms collection, and displays all element values:
+This example finds the form element with `id="frm1"`, in the forms collection, and displays all element values:
 
-Example
+### Example
+```js
 const x = document.forms["frm1"];
 let text = "";
 for (let i = 0; i < x.length; i++) {
   text += x.elements[i].value + "<br>";
 }
 document.getElementById("demo").innerHTML = text;
+```
+
+
 The following HTML objects (and object collections) are also accessible:
 
-document.anchors
-document.body
-document.documentElement
-document.embeds
-document.forms
-document.head
-document.images
-document.links
-document.scripts
-document.title
+* document.anchors
+* document.body
+* document.documentElement
+* document.embeds
+* document.forms
+* document.head
+* document.images
+* document.links
+* document.scripts
+* [document.title]()
