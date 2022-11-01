@@ -82,13 +82,13 @@ document.getElementById("demo").innerHTML = text;
 
 The following HTML objects (and object collections) are also accessible:
 
-* [document.anchors]()
-* [document.body]()
-* [document.documentElement]()
-* [document.embeds]()
-* [document.forms]()
-* [document.head]()
-* [document.images]()
+* [document.anchors](https://www.w3schools.com/js/tryit.asp?filename=tryjs_doc_anchors)
+* [document.body](https://www.w3schools.com/js/tryit.asp?filename=tryjs_doc_body)
+* [document.documentElement](https://www.w3schools.com/js/tryit.asp?filename=tryjs_doc_element)
+* [document.embeds](https://www.w3schools.com/js/tryit.asp?filename=tryjs_doc_embeds)
+* [document.forms](https://www.w3schools.com/js/tryit.asp?filename=tryjs_doc_forms)
+* [document.head](https://www.w3schools.com/js/tryit.asp?filename=tryjs_doc_head)
+* [document.images](https://www.w3schools.com/js/tryit.asp?filename=tryjs_doc_images)
 * [document.links]()
 * [document.scripts]()
 * [document.title]()
