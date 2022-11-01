@@ -88,7 +88,7 @@ The following HTML objects (and object collections) are also accessible:
 * document.embeds
 * document.forms
 * document.head
-* document.images
-* document.links
-* document.scripts
+* [document.images]()
+* [document.links]()
+* [document.scripts]()
 * [document.title]()
