@@ -30,15 +30,22 @@ If the element is not found, element will contain `null`.
 
 
 ## Finding HTML Elements by Tag Name
-This example finds all <p> elements:
+This example finds all `<p>` elements:
 
-Example
+### Example
+```js
 const element = document.getElementsByTagName("p");
-This example finds the element with id="main", and then finds all <p> elements inside "main":
+```
 
-Example
+This example finds the element with `id="main"`, and then finds all `<p>` elements inside `"main"`:
+
+### Example
+```js
 const x = document.getElementById("main");
 const y = x.getElementsByTagName("p");
+```
+
+
 Finding HTML Elements by Class Name
 If you want to find all HTML elements with the same class name, use getElementsByClassName().
 This example returns a list of all elements with class="intro".
