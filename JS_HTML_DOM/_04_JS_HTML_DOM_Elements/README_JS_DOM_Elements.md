@@ -1,4 +1,4 @@
-JavaScript HTML DOM Elements
+# JavaScript HTML DOM Elements
 This page teaches you how to find and access HTML elements in an HTML page.
 
 Finding HTML Elements
