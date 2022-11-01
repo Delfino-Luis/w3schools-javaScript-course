@@ -46,19 +46,27 @@ const y = x.getElementsByTagName("p");
 ```
 
 
-Finding HTML Elements by Class Name
-If you want to find all HTML elements with the same class name, use getElementsByClassName().
-This example returns a list of all elements with class="intro".
+## Finding HTML Elements by Class Name
+If you want to find all HTML elements with the same class name, use `getElementsByClassName()`.
+This example returns a list of all elements with `class="intro"`.
 
-Example
+### Example
+```js
 const x = document.getElementsByClassName("intro");
-Finding HTML Elements by CSS Selectors
-If you want to find all HTML elements that match a specified CSS selector (id, class names, types, attributes, values of attributes, etc), use the querySelectorAll() method.
-This example returns a list of all <p> elements with class="intro".
+```
 
-Example
+
+## Finding HTML Elements by CSS Selectors
+If you want to find all HTML elements that match a specified CSS selector (id, class names, types, attributes, values of attributes, etc), use the `querySelectorAll()` method.
+This example returns a list of all `<p>` elements with `class="intro"`.
+
+### Example
+```js
 const x = document.querySelectorAll("p.intro");
-Finding HTML Elements by HTML Object Collections
+```
+
+
+## Finding HTML Elements by HTML Object Collections
 This example finds the form element with id="frm1", in the forms collection, and displays all element values:
 
 Example
