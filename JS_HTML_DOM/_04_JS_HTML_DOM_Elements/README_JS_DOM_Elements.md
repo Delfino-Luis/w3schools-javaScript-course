@@ -1,16 +1,19 @@
 # JavaScript HTML DOM Elements
 This page teaches you how to find and access HTML elements in an HTML page.
 
-Finding HTML Elements
+## Finding HTML Elements
 Often, with JavaScript, you want to manipulate HTML elements.
 
 To do so, you have to find the elements first. There are several ways to do this:
 
-Finding HTML elements by id
-Finding HTML elements by tag name
-Finding HTML elements by class name
-Finding HTML elements by CSS selectors
-Finding HTML elements by HTML object collections
+* Finding HTML elements by id
+* Finding HTML elements by tag name
+* Finding HTML elements by class name
+* Finding HTML elements by CSS selectors
+* Finding HTML elements by HTML object collections
+
+
+
 Finding HTML Element by Id
 The easiest way to find an HTML element in the DOM, is by using the element id.
 
