@@ -113,10 +113,11 @@ document.getElementById("demo").innerHTML = "Date : " + Date(); </script>
 ```
 
 
-document.write()
-In JavaScript, document.write() can be used to write directly to the HTML output stream:
+## document.write()
+In JavaScript, `document.write()` can be used to write directly to the HTML output stream:
 
-Example
+### Example
+```js
 <!DOCTYPE html>
 <html>
 <body>
@@ -131,5 +132,7 @@ document.write(Date());
 
 </body>
 </html>
-Never use document.write() after the document is loaded. It will overwrite the document.
+```
+
+Never use `document.write()` after the document is loaded. It will overwrite the document.
 
