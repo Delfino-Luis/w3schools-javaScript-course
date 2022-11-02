@@ -1,4 +1,4 @@
-JavaScript Forms
+# JavaScript Forms
 JavaScript Form Validation
 HTML form validation can be done by JavaScript.
 
