@@ -61,13 +61,17 @@ Example explained:
 * A JavaScript changes the content (`innerHTML`) of that element to "New Heading"
 
 
-Changing the Value of an Attribute
+## Changing the Value of an Attribute
 To change the value of an HTML attribute, use this syntax:
 
+```html
 document.getElementById(id).attribute = new value
+```
+
 This example changes the value of the src attribute of an <img> element:
 
-Example
+### Example
+```js
 <!DOCTYPE html>
 <html>
 <body>
@@ -80,17 +84,23 @@ document.getElementById("myImage").src = "landscape.jpg";
 
 </body>
 </html>
+```
+
+
 Example explained:
 
-The HTML document above contains an <img> element with id="myImage"
-We use the HTML DOM to get the element with id="myImage"
-A JavaScript changes the src attribute of that element from "smiley.gif" to "landscape.jpg"
-Dynamic HTML content
+* The HTML document above contains an `<img>` element with `id="myImage"`
+* We use the HTML DOM to get the element with `id="myImage"`
+* A JavaScript changes the `src` attribute of that element from "smiley.gif" to "landscape.jpg"
+
+
+## Dynamic HTML content
 JavaScript can create dynamic HTML content:
 
 Date : Sat Oct 29 2022 20:40:51 GMT+0200 (Hora da África do Sul)
 
-Example
+### Example
+```js
 <!DOCTYPE html>
 <html>
 <body>
@@ -100,6 +110,9 @@ document.getElementById("demo").innerHTML = "Date : " + Date(); </script>
 
 </body>
 </html>
+```
+
+
 document.write()
 In JavaScript, document.write() can be used to write directly to the HTML output stream:
 
