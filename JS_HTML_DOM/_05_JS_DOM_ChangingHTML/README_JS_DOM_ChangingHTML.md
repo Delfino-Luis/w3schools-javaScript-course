@@ -35,7 +35,9 @@ Example explained:
 A JavaScript changes the content (`innerHTML`) of that element to "New text!"
 This example changes the content of an `<h1>` element:
 
-Example
+
+### Example
+```js
 <!DOCTYPE html>
 <html>
 <body>
@@ -49,12 +51,15 @@ element.innerHTML = "New Heading";
 
 </body>
 </html>
+```
+
+
 Example explained:
 
-The HTML document above contains an <h1> element with id="id01"
-We use the HTML DOM to get the element with id="id01"
-A JavaScript changes the content (innerHTML) of that element to "New Heading"
-ADVERTISEMENT
+* The HTML document above contains an `<h1>` element with `id="id01"`
+* We use the HTML DOM to get the element with `id="id01"`
+* A JavaScript changes the content (`innerHTML`) of that element to "New Heading"
+
 
 Changing the Value of an Attribute
 To change the value of an HTML attribute, use this syntax:
