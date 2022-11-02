@@ -69,24 +69,32 @@ HTML5 introduced a new HTML validation concept called **constraint validation.**
 
 HTML constraint validation is based on:
 
-* Constraint validation HTML Input Attributes
-* Constraint validation CSS Pseudo Selectors
-* Constraint validation DOM Properties and Methods
-Constraint Validation HTML Input Attributes
-Attribute	Description
-disabled	Specifies that the input element should be disabled
-max	Specifies the maximum value of an input element
-min	Specifies the minimum value of an input element
-pattern	Specifies the value pattern of an input element
-required	Specifies that the input field requires an element
-type 	Specifies the type of an input element
-For a full list, go to HTML Input Attributes.
+* Constraint validation **HTML Input Attributes**
+* Constraint validation **CSS Pseudo Selectors**
+* Constraint validation **DOM Properties and Methods**
 
-Constraint Validation CSS Pseudo Selectors
-Selector	Description
-:disabled	Selects input elements with the "disabled" attribute specified
-:invalid	Selects input elements with invalid values
-:optional	Selects input elements with no "required" attribute specified
-:required	Selects input elements with the "required" attribute specified
-:valid	Selects input elements with valid values
-For a full list, go to CSS Pseudo Classes.
+
+## Constraint Validation HTML Input Attributes
+| **Attribute**	| **Description** |
+|---|---|
+| disabled	| Specifies that the input element should be disabled |
+| max	| Specifies the maximum value of an input element |
+| min	| Specifies the minimum value of an input element |
+| pattern	| Specifies the value pattern of an input element |
+| required	| Specifies that the input field requires an element |
+| type |	Specifies the type of an input element |
+
+
+For a full list, go to [HTML Input Attributes](https://www.w3schools.com/html/html_form_attributes.asp).
+
+
+## Constraint Validation CSS Pseudo Selectors
+| **Selector**	| **Description** |
+|----|----|
+| :disabled	| Selects input elements with the "disabled" attribute specified |
+| :invalid	| Selects input elements with invalid values |
+| :optional	| Selects input elements with no "required" attribute specified |
+| :required	| Selects input elements with the "required" attribute specified |
+| :valid	| Selects input elements with valid values |
+
+For a full list, go to [CSS Pseudo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp).
