@@ -30,10 +30,10 @@ document.getElementById("p1").innerHTML = "New text!";
 
 Example explained:
 
-The HTML document above contains a <p> element with id="p1"
-We use the HTML DOM to get the element with id="p1"
-A JavaScript changes the content (innerHTML) of that element to "New text!"
-This example changes the content of an <h1> element:
+* The HTML document above contains a `<p>` element with `id="p1"`
+* We use the HTML DOM to get the element with `id="p1"`
+A JavaScript changes the content (`innerHTML`) of that element to "New text!"
+This example changes the content of an `<h1>` element:
 
 Example
 <!DOCTYPE html>
