@@ -6,8 +6,11 @@ The easiest way to modify the content of an HTML element is by using the `innerH
 
 To change the content of an HTML element, use this syntax:
 
+```html
 document.getElementById(id).innerHTML = new HTML
-This example changes the content of a <p> element:
+```
+
+This example changes the content of a `<p>` element:
 
 Example
 <html>
