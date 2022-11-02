@@ -1,4 +1,4 @@
-JavaScript HTML DOM - Changing HTML
+# JavaScript HTML DOM - Changing HTML
 The HTML DOM allows JavaScript to change the content of HTML elements.
 
 Changing HTML Content
