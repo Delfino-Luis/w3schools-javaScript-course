@@ -1,10 +1,12 @@
 # JavaScript Forms
-JavaScript Form Validation
+
+## JavaScript Form Validation
 HTML form validation can be done by JavaScript.
 
 If a form field (fname) is empty, this function alerts a message, and returns false, to prevent the form from being submitted:
 
-JavaScript Example
+### JavaScript Example
+```js
 function validateForm() {
   let x = document.forms["myForm"]["fname"].value;
   if (x == "") {
@@ -12,25 +14,23 @@ function validateForm() {
     return false;
   }
 }
+```
+
 The function can be called when the form is submitted:
 
-HTML Form Example
+### HTML Form Example
+```js
 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
 Name: <input type="text" name="fname">
 <input type="submit" value="Submit">
 </form>
-JavaScript Can Validate Numeric Input
-JavaScript is often used to validate numeric input:
+```
 
-Please input a number between 1 and 10
 
- Submit
-ADVERTISEMENT
-
-Automatic HTML Form Validation
+## Automatic HTML Form Validation
 HTML form validation can be performed automatically by the browser:
 
-If a form field (fname) is empty, the required attribute prevents this form from being submitted:
+If a form field (fname) is empty, the `required` attribute prevents this form from being submitted:
 
 HTML Form Example
 <form action="/action_page.php" method="post">
