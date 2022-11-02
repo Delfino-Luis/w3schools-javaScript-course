@@ -12,7 +12,8 @@ document.getElementById(id).innerHTML = new HTML
 
 This example changes the content of a `<p>` element:
 
-Example
+### Example
+```js
 <html>
 <body>
 
@@ -24,6 +25,9 @@ document.getElementById("p1").innerHTML = "New text!";
 
 </body>
 </html>
+```
+
+
 Example explained:
 
 The HTML document above contains a <p> element with id="p1"
