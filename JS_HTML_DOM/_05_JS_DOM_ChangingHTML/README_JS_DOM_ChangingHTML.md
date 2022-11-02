@@ -1,7 +1,7 @@
 # JavaScript HTML DOM - Changing HTML
 The HTML DOM allows JavaScript to change the content of HTML elements.
 
-Changing HTML Content
+## Changing HTML Content
 The easiest way to modify the content of an HTML element is by using the innerHTML property.
 
 To change the content of an HTML element, use this syntax:
