@@ -19,14 +19,16 @@ To demonstrate how to create HTML animations with JavaScript, we will use a simp
 </html>
 ```
 
-Create an Animation Container
+
+## Create an Animation Container
 All animations should be relative to a container element.
 
-Example
+### Example
+```js
 <div id ="container">
   <div id ="animate">My animation will go here</div>
 </div>
-
+```
 
 Style the Elements
 The container element should be created with style = "position: relative".
