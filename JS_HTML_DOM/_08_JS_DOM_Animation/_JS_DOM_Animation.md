@@ -30,7 +30,7 @@ All animations should be relative to a container element.
 </div>
 ```
 
-Style the Elements
+## Style the Elements
 The container element should be created with style = `"position: relative"`.
 
 The animation element should be created with style = `"position: absolute"`.
@@ -50,16 +50,17 @@ The animation element should be created with style = `"position: absolute"`.
   background: red;
 }
 ```
-ADVERTISEMENT
 
-Animation Code
+
+## Animation Code
 JavaScript animations are done by programming gradual changes in an element's style.
 
 The changes are called by a timer. When the timer interval is small, the animation looks continuous.
 
 The basic code is:
 
-Example
+### Example
+```js
 id = setInterval(frame, 5);
 
 function frame() {
@@ -69,8 +70,12 @@ function frame() {
     /* code to change the element style */ 
   }
 }
-Create the Full Animation Using JavaScript
-Example
+```
+
+
+## Create the Full Animation Using JavaScript
+### Example
+```js
 function myMove() {
   let id = null;
   const elem = document.getElementById("animate");
@@ -87,3 +92,4 @@ function myMove() {
     }
   }
 }
+```
