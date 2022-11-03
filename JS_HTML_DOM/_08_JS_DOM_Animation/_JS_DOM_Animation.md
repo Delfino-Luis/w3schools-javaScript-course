@@ -1,4 +1,4 @@
-JavaScript HTML DOM Animation
+# JavaScript HTML DOM Animation
 Learn to create HTML animations using JavaScript.
 
 A Basic Web Page
