@@ -31,9 +31,9 @@ All animations should be relative to a container element.
 ```
 
 Style the Elements
-The container element should be created with style = "position: relative".
+The container element should be created with style = `"position: relative"`.
 
-The animation element should be created with style = "position: absolute".
+The animation element should be created with style = `"position: absolute"`.
 
 Example
 #container {
