@@ -1,7 +1,8 @@
 # JavaScript HTML DOM Animation
 Learn to create HTML animations using JavaScript.
 
-A Basic Web Page
+
+## A Basic Web Page
 To demonstrate how to create HTML animations with JavaScript, we will use a simple web page:
 
 Example
