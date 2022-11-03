@@ -35,7 +35,8 @@ The container element should be created with style = `"position: relative"`.
 
 The animation element should be created with style = `"position: absolute"`.
 
-Example
+### Example
+```css
 #container {
   width: 400px;
   height: 400px;
@@ -48,6 +49,7 @@ Example
   position: absolute;
   background: red;
 }
+```
 ADVERTISEMENT
 
 Animation Code
