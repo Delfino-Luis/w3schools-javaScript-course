@@ -57,16 +57,20 @@ function changeText(id) {
 
 
 
-HTML Event Attributes
+## HTML Event Attributes
 To assign events to HTML elements you can use event attributes.
 
-Example
+### Example
 Assign an onclick event to a button element:
 
+```js
 <button onclick="displayDate()">Try it</button>
-In the example above, a function named displayDate will be executed when the button is clicked.
+```
 
-Assign Events Using the HTML DOM
+In the example above, a function named `displayDate` will be executed when the button is clicked.
+
+
+## Assign Events Using the HTML DOM
 The HTML DOM allows you to assign events to HTML elements using JavaScript:
 
 Example
