@@ -121,18 +121,19 @@ Click Me
 ```
 
 
-More Examples
-onmousedown and onmouseup
+## More Examples
+[onmousedown and onmouseup](https://www.w3schools.com/js/tryit.asp?filename=tryjs_event_onmousedown)
 Change an image when a user holds down the mouse button.
 
-onload
+[onload](https://www.w3schools.com/js/tryit.asp?filename=tryjs_event_onload)
 Display an alert box when the page has finished loading.
 
-onfocus
+[onfocus](https://www.w3schools.com/js/tryit.asp?filename=tryjs_event_onfocus)
 Change the background-color of an input field when it gets focus.
 
-Mouse Events
+[Mouse Events](https://www.w3schools.com/js/tryit.asp?filename=tryjs_event_onmouse)
 Change the color of an element when the cursor moves over it.
 
-HTML DOM Event Object Reference
-For a list of all HTML DOM events, look at our complete HTML DOM Event Object Reference.
+
+## HTML DOM Event Object Reference
+For a list of all HTML DOM events, look at our complete [HTML DOM Event Object Reference](https://www.w3schools.com/jsref/dom_obj_event.asp).
