@@ -73,22 +73,25 @@ In the example above, a function named `displayDate` will be executed when the b
 ## Assign Events Using the HTML DOM
 The HTML DOM allows you to assign events to HTML elements using JavaScript:
 
-Example
+### Example
 Assign an onclick event to a button element:
-
+```js
 <script>
 document.getElementById("myBtn").onclick = displayDate;
 </script>
-In the example above, a function named displayDate is assigned to an HTML element with the id="myBtn".
+```
+
+In the example above, a function named `displayDate` is assigned to an HTML element with the `id="myBtn"`.
 
 The function will be executed when the button is clicked.
 
-The onload and onunload Events
-The onload and onunload events are triggered when the user enters or leaves the page.
 
-The onload event can be used to check the visitor's browser type and browser version, and load the proper version of the web page based on the information.
+## The onload and onunload Events
+The `onload` and `onunload` events are triggered when the user enters or leaves the page.
 
-The onload and onunload events can be used to deal with cookies.
+The `onload` event can be used to check the visitor's browser type and browser version, and load the proper version of the web page based on the information.
+
+The `onload` and `onunload` events can be used to deal with cookies.
 
 Example
 <body onload="checkCookies()">
