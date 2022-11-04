@@ -93,24 +93,33 @@ The `onload` event can be used to check the visitor's browser type and browser v
 
 The `onload` and `onunload` events can be used to deal with cookies.
 
-Example
+### Example
+```js
 <body onload="checkCookies()">
-The onchange Event
-The onchange event is often used in combination with validation of input fields.
+```
 
-Below is an example of how to use the onchange. The upperCase() function will be called when a user changes the content of an input field.
 
-Example
+## The onchange Event
+The `onchange` event is often used in combination with validation of input fields.
+
+Below is an example of how to use the onchange. The `upperCase()` function will be called when a user changes the content of an input field.
+
+### Example
+```js
 <input type="text" id="fname" onchange="upperCase()">
-The onmouseover and onmouseout Events
-The onmouseover and onmouseout events can be used to trigger a function when the user mouses over, or out of, an HTML element:
+```
 
-Mouse Over Me
 
-The onmousedown, onmouseup and onclick Events
-The onmousedown, onmouseup, and onclick events are all parts of a mouse-click. First when a mouse-button is clicked, the onmousedown event is triggered, then, when the mouse-button is released, the onmouseup event is triggered, finally, when the mouse-click is completed, the onclick event is triggered.
+## The onmouseover and onmouseout Events
+The `onmouseover` and `onmouseout` events can be used to trigger a function when the user mouses over, or out of, an HTML element:
 
+
+## The onmousedown, onmouseup and onclick Events
+The `onmousedown`, `onmouseup`, and `onclick` events are all parts of a mouse-click. First when a mouse-button is clicked, the onmousedown event is triggered, then, when the mouse-button is released, the onmouseup event is triggered, finally, when the mouse-click is completed, the onclick event is triggered.
+```html
 Click Me
+```
+
 
 More Examples
 onmousedown and onmouseup
