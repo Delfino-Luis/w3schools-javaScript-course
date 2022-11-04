@@ -1,8 +1,8 @@
-JavaScript HTML DOM Events
+# JavaScript HTML DOM Events
 HTML DOM allows JavaScript to react to HTML events:
 
-Mouse Over MeClick Me
-Reacting to Events
+
+## Reacting to Events
 A JavaScript can be executed when an event occurs, like when a user clicks on an HTML element.
 
 To execute code when a user clicks on an element, add JavaScript code to an HTML event attribute:
