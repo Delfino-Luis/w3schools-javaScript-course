@@ -127,11 +127,15 @@ document.getElementById("myDiv").addEventListener("click", myFunction, true);
 ```
 
 
-The removeEventListener() method
-The removeEventListener() method removes event handlers that have been attached with the addEventListener() method:
+## The removeEventListener() method
+The `removeEventListener()` method removes event handlers that have been attached with the addEventListener() method:
 
-Example
+### Example
+```js
 element.removeEventListener("mousemove", myFunction);
-HTML DOM Event Object Reference
-For a list of all HTML DOM events, look at our complete HTML DOM Event Object Reference.
+```
+
+
+## HTML DOM Event Object Reference
+For a list of all HTML DOM events, look at our complete [HTML DOM Event Object Reference](https://www.w3schools.com/jsref/dom_obj_event.asp).
 
