@@ -1,12 +1,17 @@
-JavaScript HTML DOM EventListener
-The addEventListener() method
-Example
+# JavaScript HTML DOM EventListener
+
+
+## The addEventListener() method
+
+### Example
 Add an event listener that fires when a user clicks a button:
-
+```js
 document.getElementById("myBtn").addEventListener("click", displayDate);
-The addEventListener() method attaches an event handler to the specified element.
+```
 
-The addEventListener() method attaches an event handler to an element without overwriting existing event handlers.
+The `addEventListener()` method attaches an event handler to the specified element.
+
+The `addEventListener()` method attaches an event handler to an element without overwriting existing event handlers.
 
 You can add many event handlers to one element.
 
@@ -14,11 +19,11 @@ You can add many event handlers of the same type to one element, i.e two "click"
 
 You can add event listeners to any DOM object not only HTML elements. i.e the window object.
 
-The addEventListener() method makes it easier to control how the event reacts to bubbling.
+The `addEventListener()` method makes it easier to control how the event reacts to bubbling.
 
-When using the addEventListener() method, the JavaScript is separated from the HTML markup, for better readability and allows you to add event listeners even when you do not control the HTML markup.
+When using the `addEventListener()` method, the JavaScript is separated from the HTML markup, for better readability and allows you to add event listeners even when you do not control the HTML markup.
 
-You can easily remove an event listener by using the removeEventListener() method.
+You can easily remove an event listener by using the `removeEventListener()` method.
 
 Syntax
 element.addEventListener(event, function, useCapture);
