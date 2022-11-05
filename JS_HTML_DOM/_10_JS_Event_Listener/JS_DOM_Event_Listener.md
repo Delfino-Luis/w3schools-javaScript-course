@@ -67,29 +67,43 @@ function myFunction() {
 The `addEventListener()` method allows you to add many events to the same element, without overwriting existing events:
 
 ### Example
+```js
 element.addEventListener("click", myFunction);
 element.addEventListener("click", mySecondFunction);
+```
+
 You can add events of different types to the same element:
 
-Example
+### Example
+```js
 element.addEventListener("mouseover", myFunction);
 element.addEventListener("click", mySecondFunction);
 element.addEventListener("mouseout", myThirdFunction);
-Add an Event Handler to the window Object
-The addEventListener() method allows you to add event listeners on any HTML DOM object such as HTML elements, the HTML document, the window object, or other objects that support events, like the xmlHttpRequest object.
+```
 
-Example
+
+## Add an Event Handler to the window Object
+The `addEventListener()` method allows you to add event listeners on any HTML DOM object such as HTML elements, the HTML document, the window object, or other objects that support events, like the `xmlHttpRequest` object.
+
+### Example
 Add an event listener that fires when a user resizes the window:
-
+```js
 window.addEventListener("resize", function(){
   document.getElementById("demo").innerHTML = sometext;
 });
-Passing Parameters
+```
+
+
+## Passing Parameters
 When passing parameter values, use an "anonymous function" that calls the specified function with the parameters:
 
-Example
+### Example
+```js
 element.addEventListener("click", function(){ myFunction(p1, p2); });
-Event Bubbling or Event Capturing?
+```
+
+
+## Event Bubbling or Event Capturing?
 There are two ways of event propagation in the HTML DOM, bubbling and capturing.
 
 Event propagation is a way of defining the element order when an event occurs. If you have a <p> element inside a <div> element, and the user clicks on the <p> element, which element's "click" event should be handled first?
@@ -100,12 +114,19 @@ In capturing the outer most element's event is handled first and then the inner:
 
 With the addEventListener() method you can specify the propagation type by using the "useCapture" parameter:
 
+```js
 addEventListener(event, function, useCapture);
+```
+
 The default value is false, which will use the bubbling propagation, when the value is set to true, the event uses the capturing propagation.
 
-Example
+### Example
+```js
 document.getElementById("myP").addEventListener("click", myFunction, true);
 document.getElementById("myDiv").addEventListener("click", myFunction, true);
+```
+
+
 The removeEventListener() method
 The removeEventListener() method removes event handlers that have been attached with the addEventListener() method:
 
