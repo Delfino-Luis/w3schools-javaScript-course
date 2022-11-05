@@ -25,15 +25,20 @@ When using the `addEventListener()` method, the JavaScript is separated from the
 
 You can easily remove an event listener by using the `removeEventListener()` method.
 
-Syntax
+### Syntax
+```js
 element.addEventListener(event, function, useCapture);
-The first parameter is the type of the event (like "click" or "mousedown" or any other HTML DOM Event.)
+```
+
+The first parameter is the type of the event (like "`click`" or "`mousedown`" or any other [HTML DOM Event](https://www.w3schools.com/jsref/dom_obj_event.asp).)
 
 The second parameter is the function we want to call when the event occurs.
 
 The third parameter is a boolean value specifying whether to use event bubbling or event capturing. This parameter is optional.
 
-Note that you don't use the "on" prefix for the event; use "click" instead of "onclick".
+
+
+Note that you don't use the "on" prefix for the event; use "`click`" instead of "`onclick`".
 
 Add an Event Handler to an Element
 Example
