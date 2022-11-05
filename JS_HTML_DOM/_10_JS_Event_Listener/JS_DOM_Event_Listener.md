@@ -40,27 +40,33 @@ The third parameter is a boolean value specifying whether to use event bubbling 
 
 Note that you don't use the "on" prefix for the event; use "`click`" instead of "`onclick`".
 
-Add an Event Handler to an Element
-Example
-Alert "Hello World!" when the user clicks on an element:
 
+
+## Add an Event Handler to an Element
+
+### Example
+Alert "Hello World!" when the user clicks on an element:
+```js
 element.addEventListener("click", function(){ alert("Hello World!"); });
+```
+
 You can also refer to an external "named" function:
 
-Example
+### Example
 Alert "Hello World!" when the user clicks on an element:
-
+```js
 element.addEventListener("click", myFunction);
 
 function myFunction() {
   alert ("Hello World!");
 }
-ADVERTISEMENT
+```
 
-Add Many Event Handlers to the Same Element
-The addEventListener() method allows you to add many events to the same element, without overwriting existing events:
 
-Example
+## Add Many Event Handlers to the Same Element
+The `addEventListener()` method allows you to add many events to the same element, without overwriting existing events:
+
+### Example
 element.addEventListener("click", myFunction);
 element.addEventListener("click", mySecondFunction);
 You can add events of different types to the same element:
