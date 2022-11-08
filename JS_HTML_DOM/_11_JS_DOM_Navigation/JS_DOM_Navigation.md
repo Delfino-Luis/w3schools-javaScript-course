@@ -44,11 +44,11 @@ The terms parent, child, and sibling are used to describe the relationships.
 
 
 From the HTML above you can read:
-* <html> is the root node
-* <html> has no parents
-* <html> is the parent of <head> and <body>
-* <head> is the first child of <html>
-* <body> is the last child of <html>
+* `<html>` is the root node
+* `<html>` has no parents
+* `<html>` is the parent of `<head>` and `<body>`
+* `<head>` is the first child of `<html>`
+* `<body>` is the last child of `<html>`
 
 and:
 
