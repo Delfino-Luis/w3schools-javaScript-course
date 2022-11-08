@@ -63,18 +63,25 @@ and:
 ## Navigating Between Nodes
 You can use the following node properties to navigate between nodes with JavaScript:
 
-parentNode
-childNodes[nodenumber]
-firstChild
-lastChild
-nextSibling
-previousSibling
-Child Nodes and Node Values
-A common error in DOM processing is to expect an element node to contain text.
+* `parentNode`
+* `childNodes[nodenumber]`
+* `firstChild`
+* `lastChild`
+* `nextSibling`
+* `previousSibling`
 
-Example:
+
+## Child Nodes and Node Values
+```css
+A common error in DOM processing is to expect an element node to contain text.
+```
+
+### Example:
+```html
 <title id="demo">DOM Tutorial</title>
-The element node <title> (in the example above) does not contain text.
+```
+
+The element node `<title>` (in the example above) does not contain text.
 
 It contains a text node with the value "DOM Tutorial".
 
