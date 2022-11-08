@@ -52,15 +52,15 @@ From the HTML above you can read:
 
 and:
 
-<head> has one child: <title>
-<title> has one child (a text node): "DOM Tutorial"
-<body> has two children: <h1> and <p>
-<h1> has one child: "DOM Lesson one"
-<p> has one child: "Hello world!"
-<h1> and <p> are siblings
-ADVERTISEMENT
+* `<head>` has one child: `<title>`
+* `<title>` has one child (a text node): "DOM Tutorial"
+* `<body>` has two children: `<h1>` and `<p>`
+* `<h1>` has one child: "DOM Lesson one"
+`<p>` has one child: "Hello world!"
+`<h1>` and `<p>` are siblings
 
-Navigating Between Nodes
+
+## Navigating Between Nodes
 You can use the following node properties to navigate between nodes with JavaScript:
 
 parentNode
