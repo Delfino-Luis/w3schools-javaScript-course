@@ -93,13 +93,19 @@ myTitle = document.getElementById("demo").innerHTML;
 
 Accessing the innerHTML property is the same as accessing the `nodeValue` of the first child:
 
+```js
 myTitle = document.getElementById("demo").firstChild.nodeValue;
+```
+
 Accessing the first child can also be done like this:
-
+```js
 myTitle = document.getElementById("demo").childNodes[0].nodeValue;
-All the (3) following examples retrieves the text of an <h1> element and copies it into a <p> element:
+```
 
-Example
+All the (3) following examples retrieves the text of an `<h1>` element and copies it into a `<p>` element:
+
+### Example
+```html
 <html>
 <body>
 
@@ -112,6 +118,8 @@ document.getElementById("id02").innerHTML = document.getElementById("id01").inne
 
 </body>
 </html>
+```
+
 Example
 <html>
 <body>
