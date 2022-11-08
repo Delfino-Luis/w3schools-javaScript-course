@@ -81,14 +81,17 @@ A common error in DOM processing is to expect an element node to contain text.
 <title id="demo">DOM Tutorial</title>
 ```
 
-The element node `<title>` (in the example above) does not contain text.
+The element node `<title>` (in the example above) does **not** contain text.
 
-It contains a text node with the value "DOM Tutorial".
+It contains a **text node** with the value "DOM Tutorial".
 
-The value of the text node can be accessed by the node's innerHTML property:
+The value of the text node can be accessed by the node's `innerHTML` property:
 
+```js
 myTitle = document.getElementById("demo").innerHTML;
-Accessing the innerHTML property is the same as accessing the nodeValue of the first child:
+```
+
+Accessing the innerHTML property is the same as accessing the `nodeValue` of the first child:
 
 myTitle = document.getElementById("demo").firstChild.nodeValue;
 Accessing the first child can also be done like this:
