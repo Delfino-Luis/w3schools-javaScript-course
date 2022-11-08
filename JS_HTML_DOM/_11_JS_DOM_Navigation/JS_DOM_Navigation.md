@@ -22,10 +22,12 @@ The nodes in the node tree have a hierarchical relationship to each other.
 
 The terms parent, child, and sibling are used to describe the relationships.
 
-In a node tree, the top node is called the root (or root node)
-Every node has exactly one parent, except the root (which has no parent)
-A node can have a number of children
-Siblings (brothers or sisters) are nodes with the same parent
+* In a node tree, the top node is called the root (or root node)
+* Every node has exactly one parent, except the root (which has no parent)
+* A node can have a number of children
+* Siblings (brothers or sisters) are nodes with the same parent
+
+```html
 <html>
 
   <head>
@@ -38,14 +40,16 @@ Siblings (brothers or sisters) are nodes with the same parent
   </body>
 
 </html>
-Node tree
-From the HTML above you can read:
+```
 
-<html> is the root node
-<html> has no parents
-<html> is the parent of <head> and <body>
-<head> is the first child of <html>
-<body> is the last child of <html>
+
+From the HTML above you can read:
+* <html> is the root node
+* <html> has no parents
+* <html> is the parent of <head> and <body>
+* <head> is the first child of <html>
+* <body> is the last child of <html>
+
 and:
 
 <head> has one child: <title>
