@@ -120,7 +120,8 @@ document.getElementById("id02").innerHTML = document.getElementById("id01").inne
 </html>
 ```
 
-Example
+### Example
+```html
 <html>
 <body>
 
@@ -133,7 +134,10 @@ document.getElementById("id02").innerHTML = document.getElementById("id01").firs
 
 </body>
 </html>
-Example
+```
+
+### Example
+```html
 <html>
 <body>
 
@@ -146,16 +150,20 @@ document.getElementById("id02").innerHTML = document.getElementById("id01").chil
 
 </body>
 </html>
-InnerHTML
+```
+
+
+
+## InnerHTML
 In this tutorial we use the innerHTML property to retrieve the content of an HTML element.
 
 However, learning the other methods above is useful for understanding the tree structure and the navigation of the DOM.
 
-DOM Root Nodes
+## DOM Root Nodes
 There are two special properties that allow access to the full document:
 
-document.body - The body of the document
-document.documentElement - The full document
+* `document.body` - The body of the document
+* document.documentElement - The full document
 Example
 <html>
 <body>
