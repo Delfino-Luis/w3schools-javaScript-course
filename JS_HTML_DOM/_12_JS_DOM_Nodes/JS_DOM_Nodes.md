@@ -147,19 +147,27 @@ const parent = document.getElementById("div1");
 ```
 
 Find the `<p>` element with `id="p1"`:
-
+```js
 const child = document.getElementById("p1");
+```
+
 Remove the child from the parent:
-
+```js
 parent.removeChild(child);
-Here is a common workaround: Find the child you want to remove, and use its parentNode property to find the parent:
+```
 
+Here is a common workaround: Find the child you want to remove, and use its `parentNode` property to find the parent:
+
+```js
 const child = document.getElementById("p1");
 child.parentNode.removeChild(child);
-Replacing HTML Elements 
-To replace an element to the HTML DOM, use the replaceChild() method:
+```
 
-Example
+## Replacing HTML Elements 
+To replace an element to the HTML DOM, use the `replaceChild()` method:
+
+### Example
+```js
 <div id="div1">
   <p id="p1">This is a paragraph.</p>
   <p id="p2">This is another paragraph.</p>
@@ -174,3 +182,4 @@ const parent = document.getElementById("div1");
 const child = document.getElementById("p1");
 parent.replaceChild(para, child);
 </script>
+```
