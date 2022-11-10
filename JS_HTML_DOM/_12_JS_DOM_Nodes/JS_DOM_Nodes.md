@@ -53,9 +53,10 @@ element.appendChild(para);
 ## Creating new HTML Elements - insertBefore()
 The `appendChild()` method in the previous example, appended the new element as the last child of the parent.
 
-If you don't want that you can use the insertBefore() method:
+If you don't want that you can use the `insertBefore()` method:
 
-Example
+### Example
+```js
 <div id="div1">
   <p id="p1">This is a paragraph.</p>
   <p id="p2">This is another paragraph.</p>
@@ -70,10 +71,14 @@ const element = document.getElementById("div1");
 const child = document.getElementById("p1");
 element.insertBefore(para, child);
 </script>
-Removing Existing HTML Elements
-To remove an HTML element, use the remove() method:
+```
 
-Example
+
+## Removing Existing HTML Elements
+To remove an HTML element, use the `remove()` method:
+
+### Example
+```js
 <div>
   <p id="p1">This is a paragraph.</p>
   <p id="p2">This is another paragraph.</p>
@@ -82,16 +87,23 @@ Example
 <script>
 const elmnt = document.getElementById("p1"); elmnt.remove();
 </script>
-Example Explained 
-The HTML document contains a <div> element with two child nodes (two <p> elements):
+```
 
+
+## Example Explained 
+The HTML document contains a `<div>` element with two child nodes (two `<p>` elements):
+```js
 <div>
   <p id="p1">This is a paragraph.</p>
   <p id="p2">This is another paragraph.</p>
 </div>
-Find the element you want to remove:
+```
 
+Find the element you want to remove:
+```js
 const elmnt = document.getElementById("p1");
+```
+
 Then execute the remove() method on that element:
 
 elmnt.remove();
