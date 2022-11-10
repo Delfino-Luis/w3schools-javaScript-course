@@ -30,16 +30,18 @@ The `length` property defines the number of elements in an `HTMLCollection`:
 myCollection.length
 ```
 
-The length property is useful when you want to loop through the elements in a collection:
+The `length` property is useful when you want to loop through the elements in a collection:
 
-Example
+### Example
 Change the text color of all <p> elements:
-
+```js
 const myCollection = document.getElementsByTagName("p");
 for (let i = 0; i < myCollection.length; i++) {
   myCollection[i].style.color = "red";
 }
-An HTMLCollection is NOT an array!
+```
+
+**An HTMLCollection is NOT an array!**
 
 An HTMLCollection may look like an array, but it is not.
 
