@@ -105,14 +105,19 @@ const elmnt = document.getElementById("p1");
 ```
 
 Then execute the remove() method on that element:
-
+```js
 elmnt.remove();
-The remove() method does not work in older browsers, see the example below on how to use removeChild() instead.
+```
 
-Removing a Child Node
-For browsers that does not support the remove() method, you have to find the parent node to remove an element:
+The `remove()` method does not work in older browsers, see the example below on how to use `removeChild()` instead.
 
-Example
+
+
+## Removing a Child Node
+For browsers that does not support the `remove()` method, you have to find the parent node to remove an element:
+
+### Example
+```js
 <div id="div1">
   <p id="p1">This is a paragraph.</p>
   <p id="p2">This is another paragraph.</p>
@@ -123,17 +128,25 @@ const parent = document.getElementById("div1");
 const child = document.getElementById("p1");
 parent.removeChild(child);
 </script>
-Example Explained 
-This HTML document contains a <div> element with two child nodes (two <p> elements):
+```
 
+
+## Example Explained 
+
+This HTML document contains a `<div>` element with two child nodes (two `<p>` elements):
+```js
 <div id="div1">
   <p id="p1">This is a paragraph.</p>
   <p id="p2">This is another paragraph.</p>
 </div>
-Find the element with id="div1":
+```
 
+Find the element with `id="div1"`:
+```js
 const parent = document.getElementById("div1");
-Find the <p> element with id="p1":
+```
+
+Find the `<p>` element with `id="p1"`:
 
 const child = document.getElementById("p1");
 Remove the child from the parent:
