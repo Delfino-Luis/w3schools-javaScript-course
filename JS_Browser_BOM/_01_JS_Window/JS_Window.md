@@ -1,8 +1,8 @@
 # JavaScript Window - The Browser Object Model
 The Browser Object Model (BOM) allows JavaScript to "talk to" the browser.
 
-The Browser Object Model (BOM)
-There are no official standards for the Browser Object Model (BOM).
+## The Browser Object Model (BOM)
+There are no official standards for the **B**rowser **O**bject **M**odel (BOM).
 
 Since modern browsers have implemented (almost) the same methods and properties for JavaScript interactivity, it is often referred to, as methods and properties of the BOM.
 
