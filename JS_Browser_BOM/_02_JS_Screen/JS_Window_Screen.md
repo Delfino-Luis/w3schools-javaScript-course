@@ -90,25 +90,38 @@ Older computers used 16 bits: 65,536 different "High Colors" resolution.
 
 Very old computers, and old cell phones used 8 bits: 256 different "VGA colors".
 
-Example
+### Example
 Display the color depth of the screen in bits:
-
+```js
 document.getElementById("demo").innerHTML =
 "Screen Color Depth: " + screen.colorDepth;
+```
+
 Result will be:
-
+```html
 Screen Color Depth: 24
+```
+
+```css
 The #rrggbb (rgb) values used in HTML represents "True Colors" (16,777,216 different colors)
+```
 
-Window Screen Pixel Depth
-The screen.pixelDepth property returns the pixel depth of the screen.
 
-Example
+## Window Screen Pixel Depth
+The `screen.pixelDepth` property returns the pixel depth of the screen.
+
+### Example
 Display the pixel depth of the screen in bits:
-
+```js
 document.getElementById("demo").innerHTML =
 "Screen Pixel Depth: " + screen.pixelDepth;
-Result will be:
+```
 
+Result will be:
+```html
 Screen Pixel Depth: 24
+```
+
+```css
 For modern computers, Color Depth and Pixel Depth are equal.
+```
