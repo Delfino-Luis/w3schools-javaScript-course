@@ -64,7 +64,7 @@ Available Screen Width: 1366
 
 
 ## Window Screen Available Height
-The screen.availHeight property returns the height of the visitor's screen, in pixels, minus interface features like the Windows Taskbar.
+The `screen.availHeight` property returns the height of the visitor's screen, in pixels, minus interface features like the Windows Taskbar.
 
 Example
 Display the available height of the screen in pixels:
