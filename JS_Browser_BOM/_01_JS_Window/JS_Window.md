@@ -6,8 +6,8 @@ There are no official standards for the **B**rowser **O**bject **M**odel (BOM).
 
 Since modern browsers have implemented (almost) the same methods and properties for JavaScript interactivity, it is often referred to, as methods and properties of the BOM.
 
-The Window Object
-The window object is supported by all browsers. It represents the browser's window.
+## The Window Object
+The `window` object is supported by all browsers. It represents the browser's window.
 
 All global JavaScript objects, functions, and variables automatically become members of the window object.
 
@@ -16,12 +16,17 @@ Global variables are properties of the window object.
 Global functions are methods of the window object.
 
 Even the document object (of the HTML DOM) is a property of the window object:
-
+```js
 window.document.getElementById("header");
-is the same as:
+```
 
+is the same as:
+```js
 document.getElementById("header");
-Window Size
+```
+
+
+## Window Size
 Two properties can be used to determine the size of the browser window.
 
 Both properties return the sizes in pixels:
