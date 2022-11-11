@@ -31,17 +31,25 @@ Two properties can be used to determine the size of the browser window.
 
 Both properties return the sizes in pixels:
 
-window.innerHeight - the inner height of the browser window (in pixels)
-window.innerWidth - the inner width of the browser window (in pixels)
-The browser window (the browser viewport) is NOT including toolbars and scrollbars.
+* `window.innerHeight` - the inner height of the browser window (in pixels)
+* `window.innerWidth` - the inner width of the browser window (in pixels)
 
-Example
+```js
+The browser window (the browser viewport) is NOT including toolbars and scrollbars.
+```
+
+
+## Example
+```js
 let w = window.innerWidth;
 let h = window.innerHeight;
-Other Window Methods
+```
+
+
+## Other Window Methods
 Some other methods:
 
-window.open() - open a new window
-window.close() - close the current window
-window.moveTo() - move the current window
-window.resizeTo() - resize the current window
+* `window.open()` - open a new window
+* `window.close()` - close the current window
+* `window.moveTo()` - move the current window
+* `window.resizeTo()` - resize the current window
