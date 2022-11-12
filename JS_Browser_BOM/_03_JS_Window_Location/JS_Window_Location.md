@@ -16,28 +16,36 @@ Some examples:
 
 
 ## Window Location Href
-The window.location.href property returns the URL of the current page.
+The `window.location.href` property returns the URL of the current page.
 
-Example
+### Example
 Display the href (URL) of the current page:
-
+```js
 document.getElementById("demo").innerHTML =
 "Page location is " + window.location.href;
+```
+
 Result is:
-
+```html
 Page location is https://www.w3schools.com/js/js_window_location.asp
-Window Location Hostname
-The window.location.hostname property returns the name of the internet host (of the current page).
+```
 
-Example
+
+## Window Location Hostname
+The `window.location.hostname` property returns the name of the internet host (of the current page).
+
+### Example
 Display the name of the host:
-
+```js
 document.getElementById("demo").innerHTML =
 "Page hostname is " + window.location.hostname;
-Result is:
+```
 
+Result is:
+```html
 Page hostname is www.w3schools.com
-ADVERTISEMENT
+```
+
 
 Window Location Pathname
 The window.location.pathname property returns the pathname of the current page.
