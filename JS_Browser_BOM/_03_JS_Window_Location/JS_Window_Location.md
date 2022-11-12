@@ -47,19 +47,24 @@ Page hostname is www.w3schools.com
 ```
 
 
-Window Location Pathname
-The window.location.pathname property returns the pathname of the current page.
+## Window Location Pathname
+The `window.location.pathname` property returns the pathname of the current page.
 
-Example
+### Example
 Display the path name of the current URL:
-
+```js
 document.getElementById("demo").innerHTML =
 "Page path is " + window.location.pathname;
-Result is:
+```
 
+Result is:
+```html
 Page path is /js/js_window_location.asp
-Window Location Protocol
-The window.location.protocol property returns the web protocol of the page.
+```
+
+
+## Window Location Protocol
+The `window.location.protocol` property returns the web protocol of the page.
 
 Example
 Display the web protocol:
