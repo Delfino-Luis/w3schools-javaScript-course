@@ -82,22 +82,28 @@ Page protocol is https:
 ## Window Location Port
 The `window.location.port` property returns the number of the internet host port (of the current page).
 
-Example
+### Example
 Display the name of the host:
-
+```js
 document.getElementById("demo").innerHTML =
 "Port number is " + window.location.port;
+```
+
 Result is:
-
+```html
 Port number is
+```
+
+```html
 Most browsers will not display default port numbers (80 for http and 443 for https)
+```
 
-Window Location Assign
-The window.location.assign() method loads a new document.
+## Window Location Assign
+The `window.location.assign()` method loads a new document.
 
-Example
+### Example
 Load a new document:
-
+```html
 <html>
 <head>
 <script>
@@ -112,3 +118,4 @@ function newDoc() {
 
 </body>
 </html>
+```
