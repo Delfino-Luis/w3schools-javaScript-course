@@ -66,16 +66,21 @@ Page path is /js/js_window_location.asp
 ## Window Location Protocol
 The `window.location.protocol` property returns the web protocol of the page.
 
-Example
+### Example
 Display the web protocol:
-
+```js
 document.getElementById("demo").innerHTML =
 "Page protocol is " + window.location.protocol;
-Result is:
+```
 
+Result is:
+```html
 Page protocol is https:
-Window Location Port
-The window.location.port property returns the number of the internet host port (of the current page).
+```
+
+
+## Window Location Port
+The `window.location.port` property returns the number of the internet host port (of the current page).
 
 Example
 Display the name of the host:
