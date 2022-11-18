@@ -84,17 +84,22 @@ This property is removed (deprecated) in the latest web standard.
 
 Most browsers returns **Gecko** as product.
 
-The Browser Version
-The appVersion property returns version information about the browser:
 
-Example
+## The Browser Version
+The `appVersion` property returns version information about the browser:
+
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML = navigator.appVersion;
 </script>
-The Browser Agent
-The userAgent property returns the user-agent header sent by the browser to the server:
+```
+
+
+## The Browser Agent
+The `userAgent` property returns the user-agent header sent by the browser to the server:
 
 Example
 <p id="demo"></p>
