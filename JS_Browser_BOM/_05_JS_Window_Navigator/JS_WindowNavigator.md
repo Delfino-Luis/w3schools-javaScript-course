@@ -101,21 +101,27 @@ document.getElementById("demo").innerHTML = navigator.appVersion;
 ## The Browser Agent
 The `userAgent` property returns the user-agent header sent by the browser to the server:
 
-Example
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML = navigator.userAgent;
 </script>
-Warning !!!
+```
+
+
+## Warning !!!
 The information from the navigator object can often be misleading, and should not be used to detect browser versions because:
 
-Different browsers can use the same name
-The navigator data can be changed by the browser owner
-Some browsers misidentify themselves to bypass site tests
-Browsers cannot report new operating systems, released later than the browser
-The Browser Platform
-The platform property returns the browser platform (operating system):
+* Different browsers can use the same name
+* The navigator data can be changed by the browser owner
+* Some browsers misidentify themselves to bypass site tests
+* Browsers cannot report new operating systems, released later than the browser
+
+
+## The Browser Platform
+The `platform` property returns the browser platform (operating system):
 
 Example
 <p id="demo"></p>
