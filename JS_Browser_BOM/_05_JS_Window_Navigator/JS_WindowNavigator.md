@@ -1,4 +1,4 @@
-JavaScript Window Navigator
+# JavaScript Window Navigator
 The window.navigator object contains information about the visitor's browser.
 
 Window Navigator
