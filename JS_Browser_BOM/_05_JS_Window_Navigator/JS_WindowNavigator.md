@@ -6,8 +6,8 @@ The `window.navigator` object can be written without the window prefix.
 
 Some examples:
 
-navigator.cookieEnabled
-navigator.appCodeName
+* `navigator.cookieEnabled`
+* `navigator.appCodeName`
 navigator.platform
 Browser Cookies
 The cookieEnabled property returns true if cookies are enabled, otherwise false:
