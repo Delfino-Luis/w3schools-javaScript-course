@@ -12,16 +12,20 @@ Some examples:
 
 
 ## Browser Cookies
-The cookieEnabled property returns true if cookies are enabled, otherwise false:
+The `cookieEnabled` property returns true if cookies are enabled, otherwise false:
 
-Example
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML =
 "cookiesEnabled is " + navigator.cookieEnabled;
 </script>
-Browser Application Name
+```
+
+
+## Browser Application Name
 The appName property returns the application name of the browser:
 
 Example
