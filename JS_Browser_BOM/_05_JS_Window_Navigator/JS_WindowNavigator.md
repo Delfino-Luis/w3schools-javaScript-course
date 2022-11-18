@@ -46,19 +46,24 @@ Most browsers (IE11, Chrome, Firefox, Safari) returns **Netscape** as appName.
 
 
 ## Browser Application Code Name
-The appCodeName property returns the application code name of the browser:
+The `appCodeName` property returns the application code name of the browser:
 
-Example
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML =
 "navigator.appCodeName is " + navigator.appCodeName;
 </script>
-Warning
+```
+
+
+## Warning
 This property is removed (deprecated) in the latest web standard.
 
-Most browsers (IE11, Chrome, Firefox, Safari, Opera) returns Mozilla as appCodeName.
+Most browsers (IE11, Chrome, Firefox, Safari, Opera) returns **Mozilla** as appCodeName.
+
 
 The Browser Engine
 The product property returns the product name of the browser engine:
