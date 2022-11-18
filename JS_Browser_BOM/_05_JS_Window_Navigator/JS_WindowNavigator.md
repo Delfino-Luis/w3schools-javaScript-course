@@ -123,36 +123,50 @@ The information from the navigator object can often be misleading, and should no
 ## The Browser Platform
 The `platform` property returns the browser platform (operating system):
 
-Example
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML = navigator.platform;
 </script>
-The Browser Language
-The language property returns the browser's language:
+```
 
-Example
+
+## The Browser Language
+The `language` property returns the browser's language:
+
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML = navigator.language;
 </script>
-Is The Browser Online?
-The onLine property returns true if the browser is online:
+```
 
-Example
+
+## Is The Browser Online?
+The `onLine` property returns true if the browser is online:
+
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML = navigator.onLine;
 </script>
-Is Java Enabled?
-The javaEnabled() method returns true if Java is enabled:
+```
 
-Example
+
+## Is Java Enabled?
+The `javaEnabled()` method returns true if Java is enabled:
+
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML = navigator.javaEnabled();
 </script>
+```
