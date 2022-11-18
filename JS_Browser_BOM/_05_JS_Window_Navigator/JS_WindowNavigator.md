@@ -8,8 +8,10 @@ Some examples:
 
 * `navigator.cookieEnabled`
 * `navigator.appCodeName`
-navigator.platform
-Browser Cookies
+* `navigator.platform`
+
+
+## Browser Cookies
 The cookieEnabled property returns true if cookies are enabled, otherwise false:
 
 Example
