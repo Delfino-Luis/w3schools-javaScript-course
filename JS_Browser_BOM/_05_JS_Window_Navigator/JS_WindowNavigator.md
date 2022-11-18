@@ -2,7 +2,7 @@
 The `window.navigator` object contains information about the visitor's browser.
 
 ## Window Navigator
-The window.navigator object can be written without the window prefix.
+The `window.navigator` object can be written without the window prefix.
 
 Some examples:
 
