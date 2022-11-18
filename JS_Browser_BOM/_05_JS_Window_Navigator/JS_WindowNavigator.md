@@ -26,23 +26,26 @@ document.getElementById("demo").innerHTML =
 
 
 ## Browser Application Name
-The appName property returns the application name of the browser:
+The `appName` property returns the application name of the browser:
 
-Example
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML =
 "navigator.appName is " + navigator.appName;
 </script>
-Warning
+```
+
+## Warning
 This property is removed (deprecated) in the latest web standard.
 
-Most browsers (IE11, Chrome, Firefox, Safari) returns Netscape as appName.
+Most browsers (IE11, Chrome, Firefox, Safari) returns **Netscape** as appName.
 
-ADVERTISEMENT
 
-Browser Application Code Name
+
+## Browser Application Code Name
 The appCodeName property returns the application code name of the browser:
 
 Example
