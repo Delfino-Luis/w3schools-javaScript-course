@@ -65,20 +65,24 @@ This property is removed (deprecated) in the latest web standard.
 Most browsers (IE11, Chrome, Firefox, Safari, Opera) returns **Mozilla** as appCodeName.
 
 
-The Browser Engine
-The product property returns the product name of the browser engine:
+## The Browser Engine
+The `product` property returns the product name of the browser engine:
 
-Example
+### Example
+```js
 <p id="demo"></p>
 
 <script>
 document.getElementById("demo").innerHTML =
 "navigator.product is " + navigator.product;
 </script>
-Warning
+```
+
+
+## Warning
 This property is removed (deprecated) in the latest web standard.
 
-Most browsers returns Gecko as product.
+Most browsers returns **Gecko** as product.
 
 The Browser Version
 The appVersion property returns version information about the browser:
