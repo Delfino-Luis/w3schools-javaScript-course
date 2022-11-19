@@ -1,7 +1,8 @@
-JavaScript Popup Boxes
+# JavaScript Popup Boxes
+
 JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
 
-Alert Box
+## Alert Box
 An alert box is often used if you want to make sure information comes through to the user.
 
 When an alert box pops up, the user will have to click "OK" to proceed.
