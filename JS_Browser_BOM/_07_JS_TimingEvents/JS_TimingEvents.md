@@ -56,22 +56,30 @@ window.clearTimeout(timeoutVariable)
 The `window.clearTimeout()` method can be written without the window prefix.
 
 The `clearTimeout()` method uses the variable returned from `setTimeout()`:
-
+```js
 myVar = setTimeout(function, milliseconds);
 clearTimeout(myVar);
-If the function has not already been executed, you can stop the execution by calling the clearTimeout() method:
+```
 
-Example
+
+If the function has not already been executed, you can stop the execution by calling the `clearTimeout()` method:
+
+### Example
 Same example as above, but with an added "Stop" button:
-
+```js
 <button onclick="myVar = setTimeout(myFunction, 3000)">Try it</button>
 
 <button onclick="clearTimeout(myVar)">Stop it</button>
-The setInterval() Method
-The setInterval() method repeats a given function at every given time-interval.
+```
 
+## The setInterval() Method
+The `setInterval()` method repeats a given function at every given time-interval.
+```js
 window.setInterval(function, milliseconds);
-The window.setInterval() method can be written without the window prefix.
+```
+
+
+The `window.setInterval()` method can be written without the window prefix.
 
 The first parameter is the function to be executed.
 
@@ -79,30 +87,40 @@ The second parameter indicates the length of the time-interval between each exec
 
 This example executes a function called "myTimer" once every second (like a digital watch).
 
-Example
+### Example
 Display the current time:
 
+```js
 setInterval(myTimer, 1000);
 
 function myTimer() {
   const d = new Date();
   document.getElementById("demo").innerHTML = d.toLocaleTimeString();
 }
+```
+
+```html
 There are 1000 milliseconds in one second.
+```
 
-How to Stop the Execution?
-The clearInterval() method stops the executions of the function specified in the setInterval() method.
-
+## How to Stop the Execution?
+The `clearInterval()` method stops the executions of the function specified in the setInterval() method.
+```js
 window.clearInterval(timerVariable)
-The window.clearInterval() method can be written without the window prefix.
+```
 
-The clearInterval() method uses the variable returned from setInterval():
+The `window.clearInterval()` method can be written without the window prefix.
 
+The `clearInterval()` method uses the variable returned from `setInterval()`:
+```js
 let myVar = setInterval(function, milliseconds);
 clearInterval(myVar);
-Example
-Same example as above, but we have added a "Stop time" button:
+```
 
+
+### Example
+Same example as above, but we have added a "Stop time" button:
+```js
 <p id="demo"></p>
 
 <button onclick="clearInterval(myVar)">Stop time</button>
@@ -114,8 +132,10 @@ function myTimer() {
   document.getElementById("demo").innerHTML = d.toLocaleTimeString();
 }
 </script>
-More Examples
-Another simple timing
+```
 
-A clock created with a timing event
 
+## More Examples
+[Another simple timing](https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing2)
+
+[A clock created with a timing event](https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_clock)
