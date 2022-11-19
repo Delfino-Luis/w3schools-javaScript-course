@@ -95,7 +95,8 @@ cookie1 = value; cookie2 = value;
 
 If you want to find the value of one specified cookie, you must write a JavaScript function that searches for the cookie value in the cookie string.
 
-JavaScript Cookie Example
+
+## JavaScript Cookie Example
 In the example to follow, we will create a cookie that stores the name of a visitor.
 
 The first time a visitor arrives to the web page, he/she will be asked to fill in his/her name. The name is then stored in a cookie.
@@ -104,29 +105,37 @@ The next time the visitor arrives at the same page, he/she will get a welcome me
 
 For the example we will create 3 JavaScript functions:
 
-A function to set a cookie value
-A function to get a cookie value
-A function to check a cookie value
-A Function to Set a Cookie
-First, we create a function that stores the name of the visitor in a cookie variable:
+1. A function to set a cookie value
+2. A function to get a cookie value
+3. A function to check a cookie value
 
-Example
+
+## A Function to Set a Cookie
+First, we create a `function` that stores the name of the visitor in a cookie variable:
+
+### Example
+```js
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires="+ d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
-Example explained:
+```
+
+
+**Example explained:**
 
 The parameters of the function above are the name of the cookie (cname), the value of the cookie (cvalue), and the number of days until the cookie should expire (exdays).
 
 The function sets a cookie by adding together the cookiename, the cookie value, and the expires string.
 
-A Function to Get a Cookie
-Then, we create a function that returns the value of a specified cookie:
 
-Example
+## A Function to Get a Cookie
+Then, we create a `function` that returns the value of a specified cookie:
+
+### Example
+```js
 function getCookie(cname) {
   let name = cname + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
@@ -142,7 +151,10 @@ function getCookie(cname) {
   }
   return "";
 }
-Function explained:
+```
+
+
+**Function explained:**
 
 Take the cookiename as parameter (cname).
 
@@ -158,14 +170,16 @@ If the cookie is found (c.indexOf(name) == 0), return the value of the cookie (c
 
 If the cookie is not found, return "".
 
-A Function to Check a Cookie
+
+## A Function to Check a Cookie
 Last, we create the function that checks if a cookie is set.
 
 If the cookie is set it will display a greeting.
 
-If the cookie is not set, it will display a prompt box, asking for the name of the user, and stores the username cookie for 365 days, by calling the setCookie function:
+If the cookie is not set, it will display a prompt box, asking for the name of the user, and stores the username cookie for 365 days, by calling the `setCookie` function:
 
-Example
+### Example
+```js
 function checkCookie() {
   let username = getCookie("username");
   if (username != "") {
@@ -177,8 +191,12 @@ function checkCookie() {
     }
   }
 }
-All Together Now
-Example
+```
+
+
+## All Together Now
+### Example
+```js
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -212,5 +230,8 @@ function checkCookie() {
     }
   }
 }
-The example above runs the checkCookie() function when the page loads.
+```
+
+
+The example above runs the `checkCookie()` function when the page loads.
 
