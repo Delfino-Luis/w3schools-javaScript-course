@@ -12,7 +12,9 @@ window.alert("sometext");
 The `window.alert()` method can be written without the window prefix.
 
 ### Example
+```js
 alert("I am an alert box!");
+```
 Confirm Box
 A confirm box is often used if you want the user to verify or accept something.
 
